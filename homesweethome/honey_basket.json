@@ -1,0 +1,23 @@
+{
+	"entity_data": {
+		"stonehearth:food_container": {
+			"food": "homesweethome:food:honey_serving"
+		},
+		"stonehearth:catalog": {
+			"material_tags": [
+				"food_container",
+				"raw_food",
+				"vegetable",
+				"vegetarian",
+				"honey",
+				"stockpile_raw_food",
+				"stockpile_cooking_ingredient",
+				"cooking_ingredient",
+				"food",
+				"honey_honey",
+				"sweetener",
+				"other_ingredient"
+			]
+		}
+	}
+}
