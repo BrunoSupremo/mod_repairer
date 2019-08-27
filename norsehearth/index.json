@@ -1,0 +1,8 @@
+{
+	"jobs" : {
+		"mixintypes": {
+			"stonehearth:jobs:footman": "remove",
+			"stonehearth:jobs:knight": "remove"
+		}
+	}
+}

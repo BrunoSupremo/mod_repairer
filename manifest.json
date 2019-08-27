@@ -8,11 +8,11 @@
 	"dependencies": [
 		"furniture_expansion_plus",
 		"homesweethome",
-		"trapper_plus"
+		"trapper_plus",
+		"norsehearth"
 	],
 	"default_locale" : "en",
 	"server_init_script" : "file(server)",
-	"aliases" : {},
 	"mixintos" : {
 		"furniture_expansion_plus/entities/decorations/blue_awning/blue_awning.json":"file(furniture_expansion_plus/awning.json)",
 		"furniture_expansion_plus/entities/decorations/blue_awning/blue_awning_ghost.json":"file(furniture_expansion_plus/awning_ghost.json)",
@@ -20,10 +20,17 @@
 		"furniture_expansion_plus/entities/decorations/red_awning/red_awning_ghost.json":"file(furniture_expansion_plus/awning_ghost.json)",
 		"furniture_expansion_plus/entities/decorations/red_curtains/red_curtains.json":"file(furniture_expansion_plus/red_curtains.json)",
 		"furniture_expansion_plus/entities/decorations/red_curtains/red_curtains_ghost.json":"file(furniture_expansion_plus/red_curtains_ghost.json)",
+
 		"homesweethome:food:honey_basket":"file(homesweethome/honey_basket.json)",
-		"stonehearth:jobs:trapper":"file(trapper_plus/trapper_description.json)"
+		
+		"stonehearth:jobs:trapper":"file(trapper_plus/trapper_description.json)",
+
+		"norsehearth:biome:norsehearth_biome":"file(norsehearth/norsehearth_biome.json)",
+		"norsehearth/data/biome/norsehearth_biome_generation_data.json":"file(norsehearth/norsehearth_biome_generation_data.json)",
+		"norsehearth:jobs:index":"file(norsehearth/index.json)"
 	},
-	"overrides" : {},
-	"components" : {},
-	"controllers" : {}
+	"overrides" : {
+		"norsehearth/jobs/worker/worker_outfit/worker_outfit.qb":		"file(norsehearth/worker_outfit.qb)",
+		"norsehearth/jobs/worker/worker_outfit/worker_outfit_female.qb":"file(norsehearth/worker_outfit_female.qb)"
+	}
 }
