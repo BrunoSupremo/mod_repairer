@@ -24,12 +24,15 @@
 		"homesweethome:food:honey_basket":"file(homesweethome/honey_basket.json)",
 		
 		"stonehearth:jobs:trapper":"file(trapper_plus/trapper_description.json)",
+		"trapper_plus/mixins/scaly_skin_categorizer.json":"file(trapper_plus/varanus_skin.json)",
 
 		"norsehearth:biome:norsehearth_biome":"file(norsehearth/norsehearth_biome.json)",
 		"norsehearth/data/biome/norsehearth_biome_generation_data.json":"file(norsehearth/norsehearth_biome_generation_data.json)",
 		"norsehearth:jobs:index":"file(norsehearth/index.json)"
 	},
 	"overrides" : {
+		"trapper_plus/jobs/trapper/trapper_modded.lua":	"file(trapper_plus/trapper.lua)",
+
 		"norsehearth/jobs/worker/worker_outfit/worker_outfit.qb":		"file(norsehearth/worker_outfit.qb)",
 		"norsehearth/jobs/worker/worker_outfit/worker_outfit_female.qb":"file(norsehearth/worker_outfit_female.qb)"
 	}

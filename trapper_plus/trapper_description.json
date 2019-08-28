@@ -1,3 +1,6 @@
 {
-	"roles":["trapper_job", "hunter", "crafter"]
+	"roles":["trapper_job", "hunter", "crafter"],
+	"initial_num_animal_traps": {
+		"fish_trap": 3
+	}
 }

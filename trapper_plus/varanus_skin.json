@@ -1,0 +1,13 @@
+{
+	"entity_data": {
+		"stonehearth:catalog": {
+			"material_tags": [
+				"skin",
+				"stockpile_animal_part",
+				"resource",
+				"animal_part",
+				"hard_pelt"
+			]
+		}
+	}
+}
