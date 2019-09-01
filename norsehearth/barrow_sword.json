@@ -1,0 +1,9 @@
+{
+	"components": {
+		"stonehearth:equipment_piece": {
+			"mixintypes": {
+				"injected_buffs": "remove"
+			}
+		}
+	}
+}

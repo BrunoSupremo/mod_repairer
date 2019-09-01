@@ -171,7 +171,9 @@ function TrapperClass:_register_with_town()
    local town = stonehearth.town:get_town(player_id)
    if town then
       town:add_placement_slot_entity(self._sv._entity, self._sv.max_num_siege_weapons)
-      town:add_placement_slot_entity(self._sv._entity, self._sv.max_num_animal_traps)
+      if self._sv.max_num_animal_traps then
+         town:add_placement_slot_entity(self._sv._entity, self._sv.max_num_animal_traps)
+      end
    end
 end
 

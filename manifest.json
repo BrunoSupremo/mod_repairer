@@ -28,7 +28,8 @@
 
 		"norsehearth:biome:norsehearth_biome":"file(norsehearth/norsehearth_biome.json)",
 		"norsehearth/data/biome/norsehearth_biome_generation_data.json":"file(norsehearth/norsehearth_biome_generation_data.json)",
-		"norsehearth:jobs:index":"file(norsehearth/index.json)"
+		"norsehearth:jobs:index":"file(norsehearth/index.json)",
+		"norsehearth:weapons:barrow_sword": "file(norsehearth/barrow_sword.json)"
 	},
 	"overrides" : {
 		"trapper_plus/jobs/trapper/trapper_modded.lua":	"file(trapper_plus/trapper.lua)",
