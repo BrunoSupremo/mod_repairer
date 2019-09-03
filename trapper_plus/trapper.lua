@@ -1,5 +1,6 @@
 local TrapperClass = class()
 local constants = require 'constants'
+local BaseJob = require 'stonehearth.jobs.base_job'
 local CraftingJob = require 'stonehearth.jobs.crafting_job'
 local rng = _radiant.math.get_default_rng()
 radiant.mixin(TrapperClass, CraftingJob)
@@ -28,6 +29,7 @@ function TrapperClass:restore()
 end
 
 function TrapperClass:promote(json_path, options)
+   self._sv._entity:add_component('stonehearth:commands')
    CraftingJob.promote(self, json_path, options)
    self._sv.max_num_siege_weapons = self._job_json.initial_num_siege_weapons or { trap = 0 }
    if next(self._sv.max_num_siege_weapons) then
@@ -47,7 +49,15 @@ function TrapperClass:demote()
       town:remove_placement_slot_entity(self._sv._entity)
    end
 
-   CraftingJob.demote(self)
+   BaseJob.demote(self)
+   local craft_comp = self._sv._entity:get_component('stonehearth:crafter')
+   if craft_comp then
+      craft_comp:demote()
+      craft_comp = nil
+   end
+   self._sv._entity:remove_component("stonehearth:crafter")
+   
+   self.__saved_variables:mark_changed()
 end
 
 --Private functions

@@ -9,7 +9,8 @@
 		"furniture_expansion_plus",
 		"homesweethome",
 		"trapper_plus",
-		"norsehearth"
+		"norsehearth",
+		"taiga_biome"
 	],
 	"default_locale" : "en",
 	"server_init_script" : "file(server)",
@@ -26,10 +27,17 @@
 		"stonehearth:jobs:trapper":"file(trapper_plus/trapper_description.json)",
 		"trapper_plus/mixins/scaly_skin_categorizer.json":"file(trapper_plus/varanus_skin.json)",
 
+		"stonehearth:biome:index": "file(norsehearth/biome_index.json)",
 		"norsehearth:biome:norsehearth_biome":"file(norsehearth/norsehearth_biome.json)",
 		"norsehearth/data/biome/norsehearth_biome_generation_data.json":"file(norsehearth/norsehearth_biome_generation_data.json)",
-		"norsehearth:jobs:index":"file(norsehearth/index.json)",
-		"norsehearth:weapons:barrow_sword": "file(norsehearth/barrow_sword.json)"
+		"norsehearth:jobs:index":"file(norsehearth/job_index.json)",
+		"norsehearth:weapons:barrow_sword": "file(norsehearth/barrow_sword.json)",
+
+		"stonehearth:biome:index": "file(taiga_biome/biome_index.json)",
+		"taiga_biome:biome:taiga":"file(taiga_biome/taiga.json)",
+		"taiga_biome/data/biome/taiga_generation_data.json":"file(taiga_biome/taiga_generation_data.json)",
+
+		"swamp_goblins/data/monster_tuning/firefly_human_encounter/trapper.json": "file(swamp_goblins/npc_trapper.json)"
 	},
 	"overrides" : {
 		"trapper_plus/jobs/trapper/trapper_modded.lua":	"file(trapper_plus/trapper.lua)",

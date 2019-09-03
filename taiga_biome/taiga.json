@@ -1,11 +1,12 @@
 {
-	"story_board_image": "/norsehearth/data/biome/images/norsehearth_biome_story_board.png",
+	"alias":"stonehearth:biome:tiaga",
 	"mixintypes": {
+		"weather": "remove",
 		"game_mode_images": "override"
 	},
 	"game_mode_images": {
-		"stonehearth:game_mode:normal": "/norsehearth/data/biome/images/norsehearth_biome_story_normal.png",
-		"stonehearth:game_mode:hard": "/norsehearth/data/biome/images/norsehearth_biome_story_normal.png"
+		"stonehearth:game_mode:normal": "/taiga_biome/data/biome/images/taiga_story_board_normal.png",
+		"stonehearth:game_mode:hard": "/taiga_biome/data/biome/images/taiga_story_board_normal.png"
 	},
 	"applied_manifests": {
 		"arctic": "stonehearth/data/biome/arctic/manifest.json",
