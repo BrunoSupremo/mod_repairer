@@ -21,6 +21,7 @@
 		"furniture_expansion_plus/entities/decorations/red_awning/red_awning_ghost.json":"file(furniture_expansion_plus/awning_ghost.json)",
 		"furniture_expansion_plus/entities/decorations/red_curtains/red_curtains.json":"file(furniture_expansion_plus/red_curtains.json)",
 		"furniture_expansion_plus/entities/decorations/red_curtains/red_curtains_ghost.json":"file(furniture_expansion_plus/red_curtains_ghost.json)",
+		"furniture_expansion_plus:scarecrow":	"file(furniture_expansion_plus/small_collision.json)",
 
         "furniture_expansion_plus:decoration:red_curtains":	"file(furniture_expansion_plus/10_gold.json)",
         "furniture_expansion_plus:decoration:red_awning":	"file(furniture_expansion_plus/10_gold.json)",
@@ -66,6 +67,7 @@
 		"norsehearth/data/biome/norsehearth_biome_generation_data.json":"file(norsehearth/norsehearth_biome_generation_data.json)",
 		"norsehearth:jobs:index":"file(norsehearth/job_index.json)",
 		"norsehearth:weapons:barrow_sword": "file(norsehearth/barrow_sword.json)",
+		"norsehearth:trees:dark_pine:ancient": "file(norsehearth/remove_destination.json)",
 
 		"norsehearth:armor:barrow_shield":	"file(norsehearth/10_gold.json)",
 		"norsehearth:decoration:smoke_entity":	"file(norsehearth/10_gold.json)",
@@ -77,6 +79,7 @@
 		"stonehearth:biome:index": "file(taiga_biome/biome_index.json)",
 		"taiga_biome:biome:taiga":"file(taiga_biome/taiga.json)",
 		"taiga_biome/data/biome/taiga_generation_data.json":"file(taiga_biome/taiga_generation_data.json)",
+		"taiga_biome:trees:dark_pine:ancient": "file(norsehearth/remove_destination.json)",
 
 		"swamp_goblins/data/monster_tuning/firefly_human_encounter/trapper.json": "file(swamp_goblins/npc_trapper.json)"
 	},

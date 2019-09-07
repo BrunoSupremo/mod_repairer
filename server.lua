@@ -1,8 +1,9 @@
 mod_repairer = {}
-print("Mod Repairer version 19.9.3")
+print("Mod Repairer version 19.9.7")
 
 --[[
 todo:
+port taiga seeds to norsehearth
 
 ]]
 
