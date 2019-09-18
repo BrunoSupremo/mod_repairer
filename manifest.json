@@ -58,6 +58,8 @@
 
 
 		"homesweethome:food:honey_basket":"file(homesweethome/honey_basket.json)",
+		"homesweethome/jobs/carpenter/recipes/recipes.json" : "file(homesweethome/carpenter_recipes.json)",
+		"homesweethome/data/gm/campaigns/the_ascendancy/arcs/encounters/unlock_carpenter.json" : "file(homesweethome/unlock_carpenter.json)",
 		
 		"stonehearth:jobs:trapper":"file(trapper_plus/trapper_description.json)",
 		"trapper_plus/mixins/scaly_skin_categorizer.json":"file(trapper_plus/varanus_skin.json)",

@@ -1,0 +1,14 @@
+{
+	"craftable_recipes" : {
+		"storage" : {
+			"recipes" : {
+				"mixintypes": {
+					"barrel": "remove"
+				},
+				"home_sweet_home_barrel" : {
+					"recipe" : "homesweethome/jobs/carpenter/recipes/barrel_recipe.json"
+				}
+			}
+		}
+	}
+}
