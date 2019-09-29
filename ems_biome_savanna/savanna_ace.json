@@ -1,0 +1,48 @@
+{
+	"seasons": {
+		"spring": {
+			"weather": [
+				{
+					"uri": "stonehearth_ace:weather:sunny:chilly",
+					"weight": 1
+				}
+			]
+		},
+		"summer": {
+			"weather": [
+				{
+					"uri": "stonehearth_ace:weather:sunny:hot",
+					"weight": 5
+				},
+				{
+					"uri": "stonehearth_ace:weather:sunny:sweltering",
+					"weight": 1
+				}
+			]
+		},
+		"autumn": {
+			"weather": [
+				{
+					"uri": "stonehearth_ace:weather:cloudy:chilly",
+					"weight": 2
+				}
+			]
+		},
+		"winter": {
+			"weather": [
+				{
+					"uri": "stonehearth_ace:weather:sunny:chilly",
+					"weight": 2
+				},
+				{
+					"uri": "stonehearth_ace:weather:cloudy:cold",
+					"weight": 2
+				},
+				{
+					"uri": "stonehearth_ace:weather:windy:chilly",
+					"weight": 3
+				}
+			]
+		}
+	}
+}

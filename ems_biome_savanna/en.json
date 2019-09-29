@@ -1,0 +1,26 @@
+{
+	"data": {
+		"biome": {
+			"savanna": {
+				"seasons": {
+				  "spring": {
+                   "display_name": "Spring",
+                   "description": "Spring in the Savanna is the wet season. It is a time for the water reserves to be replenished."
+                  },
+                  "summer": {
+                   "display_name": "Summer",
+                   "description": "Summer in the Savanna is the storm season. It can be windy with occasional Sandstorms that ravage anything that is unsheltered."
+                  },
+                  "autumn": {
+                   "display_name": "Autumn",
+                   "description": "Autumn in the Savanna is the quiet season. The weather is hot, but milder than in the summer. It is traditionally a time to rest after surviving the storms of summer."
+                  },
+                  "winter": {
+                   "display_name": "Winter",
+                   "description": "Winter in the Savanna is a cool season. Breezes blow over the grasslands, bringing with them milder weather than in the autumn, and even the occasional snow cloud."
+                  }
+				}
+			}
+		}
+	}
+}

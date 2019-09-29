@@ -1,0 +1,15 @@
+{
+	"mineable_blocks": {
+		"rock": {
+			"entries": {
+				"default": {
+					"items": {
+						"clay_mound": {
+							"uri": "stonehearth:resources:clay:clay_mound"
+						}
+					}
+				}
+			}
+		}
+	}
+}

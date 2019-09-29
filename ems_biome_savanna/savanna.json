@@ -1,0 +1,151 @@
+{
+	"mixintypes": {
+		"weather": "remove"
+	},
+	"climate": "temperate_medium",
+	"applied_manifests": {
+		"desert": "stonehearth/data/biome/desert/manifest.json",
+		"savanna_manifest": "file(savanna/manifest.json)"
+	},
+	"growth_duration_multiplier": 1.25,
+	"decay_multiplier": 0.75,
+	"default_starting_season": "spring",
+	"seasons": {
+		"spring": {
+			"humidity": 0.5,
+			"sunlight": 0.9,
+			"display_name": "i18n(ems_biome_savanna:data.biome.savanna.seasons.spring.display_name)",
+			"description": "i18n(ems_biome_savanna:data.biome.savanna.seasons.spring.description)",
+			"start_day": 0,
+			"weather": [
+				{
+					"uri": "stonehearth:weather:sunny:desert",
+					"weight": 10
+				},
+				{
+					"uri": "stonehearth:weather:cloudy:desert",
+					"weight": 3
+				},
+				{
+					"uri": "stonehearth:weather:rain",
+					"weight": 4
+				},
+				{
+					"uri": "stonehearth:weather:rain:sunny",
+					"weight": 8
+				},
+				{
+					"uri": "stonehearth:weather:thunderstorm",
+					"weight": 3
+				},
+				{
+					"uri": "stonehearth:weather:foggy",
+					"weight": 1
+				},
+				{
+					"uri": "stonehearth:weather:lucky",
+					"weight": 0.08
+				}
+			]
+		},
+		"summer": {
+			"humidity": 0.3,
+			"sunlight": 0.95,
+			"display_name": "i18n(ems_biome_savanna:data.biome.savanna.seasons.summer.display_name)",
+			"description": "i18n(ems_biome_savanna:data.biome.savanna.seasons.summer.description)",
+			"start_day": 21,
+			"weather": [
+				{
+					"uri": "stonehearth:weather:sunny:desert",
+					"weight": 6
+				},
+				{
+					"uri": "stonehearth:weather:windy",
+					"weight": 6
+				},
+				{
+					"uri": "stonehearth:weather:cloudy:desert",
+					"weight": 2
+				},
+				{
+					"uri": "stonehearth:weather:sandy",
+					"weight": 3
+				},
+				{
+					"uri": "stonehearth:weather:sandstorm",
+					"weight": 3
+				},
+				{
+					"uri": "stonehearth:weather:thunderstorm",
+					"weight": 1
+				},
+				{
+					"uri": "stonehearth:weather:lucky",
+					"weight": 0.07
+				}
+			]
+		},
+		"autumn": {
+			"humidity": 0.4,
+			"sunlight": 0.8,
+			"display_name": "i18n(ems_biome_savanna:data.biome.savanna.seasons.autumn.display_name)",
+			"description": "i18n(ems_biome_savanna:data.biome.savanna.seasons.autumn.description)",
+			"start_day": 42,
+			"weather": [
+				{
+					"uri": "stonehearth:weather:sunny:desert",
+					"weight": 13
+				},
+				{
+					"uri": "stonehearth:weather:windy",
+					"weight": 10
+				},
+				{
+					"uri": "stonehearth:weather:cloudy:desert",
+					"weight": 3
+				},
+				{
+					"uri": "stonehearth:weather:thunderstorm",
+					"weight": 2
+				},
+				{
+					"uri": "stonehearth:weather:lucky",
+					"weight": 0.06
+				}
+			]
+		},
+		"winter": {
+			"humidity": 0.3,
+			"sunlight": 0.7,
+			"display_name": "i18n(ems_biome_savanna:data.biome.savanna.seasons.winter.display_name)",
+			"description": "i18n(ems_biome_savanna:data.biome.savanna.seasons.winter.description)",
+			"start_day": 63,
+			"weather": [
+				{
+					"uri": "stonehearth:weather:sunny:desert",
+					"weight": 6
+				},
+				{
+					"uri": "stonehearth:weather:windy",
+					"weight": 8
+				},
+				{
+					"uri": "stonehearth:weather:cloudy:desert",
+					"weight": 6
+				},
+				{
+					"uri": "stonehearth:weather:rain:sunny",
+					"weight": 6
+				},
+				{
+					"uri": "stonehearth:weather:snow:sunny",
+					"weight": 2
+				},
+				{
+					"uri": "stonehearth:weather:lucky",
+					"weight": 0.05
+				}
+			]
+		}
+	}
+}

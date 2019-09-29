@@ -5,12 +5,17 @@
 		"version" : 3,
 		"steam_file_id" : "1846248864"
 	},
+	"helping_hands": [
+		"brunosupremo",
+		"findersword"
+	],
 	"dependencies": [
 		"furniture_expansion_plus",
 		"homesweethome",
 		"trapper_plus",
 		"norsehearth",
-		"taiga_biome"
+		"taiga_biome",
+		"ems_biome_savanna"
 	],
 	"default_locale" : "en",
 	"server_init_script" : "file(server)",
@@ -23,38 +28,38 @@
 		"furniture_expansion_plus/entities/decorations/red_curtains/red_curtains_ghost.json":"file(furniture_expansion_plus/red_curtains_ghost.json)",
 		"furniture_expansion_plus:scarecrow":	"file(furniture_expansion_plus/small_collision.json)",
 
-        "furniture_expansion_plus:decoration:red_curtains":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:decoration:red_awning":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:decoration:blue_awning":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:decoration:trapdoor":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:furniture:linked_chest":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:furniture:wooden_chest":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:furniture:washing_cabinet":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:furniture:burning_logs":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:furniture:redcloth_wooden_table":	"file(furniture_expansion_plus/20_gold.json)",
-        "furniture_expansion_plus:furniture:bluecloth_wood_table":	"file(furniture_expansion_plus/20_gold.json)",
-        "furniture_expansion_plus:furniture:piano":	"file(furniture_expansion_plus/20_gold.json)",
-        "furniture_expansion_plus:furniture:bookcase_large":	"file(furniture_expansion_plus/20_gold.json)",
-        "furniture_expansion_plus:furniture:bookcase_small":	"file(furniture_expansion_plus/20_gold.json)",
-        "furniture_expansion_plus:furniture:shelf":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:furniture:training_dummy":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:furniture:bar_section":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:furniture:bar_corner":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:furniture:cart":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:barrel_chair":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:simple_wooden_stool":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:crate_chair":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:barrel_table":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:barrel_for_one":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:boiling_cabinet":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:scarecrow":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:shopping_stall_purple":	"file(furniture_expansion_plus/20_gold.json)",
-        "furniture_expansion_plus:shopping_stall_pink":	"file(furniture_expansion_plus/20_gold.json)",
-        "furniture_expansion_plus:shopping_stall_blue":	"file(furniture_expansion_plus/20_gold.json)",
-        "furniture_expansion_plus:shopping_stall_green":	"file(furniture_expansion_plus/20_gold.json)",
-        "furniture_expansion_plus:toys:plushie_toy_mudkip":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:toys:plushie_toy_meowth":	"file(furniture_expansion_plus/10_gold.json)",
-        "furniture_expansion_plus:toys:plushie_toy_snorlax":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:decoration:red_curtains":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:decoration:red_awning":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:decoration:blue_awning":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:decoration:trapdoor":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:furniture:linked_chest":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:furniture:wooden_chest":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:furniture:washing_cabinet":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:furniture:burning_logs":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:furniture:redcloth_wooden_table":	"file(furniture_expansion_plus/20_gold.json)",
+		"furniture_expansion_plus:furniture:bluecloth_wood_table":	"file(furniture_expansion_plus/20_gold.json)",
+		"furniture_expansion_plus:furniture:piano":	"file(furniture_expansion_plus/20_gold.json)",
+		"furniture_expansion_plus:furniture:bookcase_large":	"file(furniture_expansion_plus/20_gold.json)",
+		"furniture_expansion_plus:furniture:bookcase_small":	"file(furniture_expansion_plus/20_gold.json)",
+		"furniture_expansion_plus:furniture:shelf":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:furniture:training_dummy":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:furniture:bar_section":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:furniture:bar_corner":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:furniture:cart":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:barrel_chair":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:simple_wooden_stool":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:crate_chair":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:barrel_table":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:barrel_for_one":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:boiling_cabinet":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:scarecrow":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:shopping_stall_purple":	"file(furniture_expansion_plus/20_gold.json)",
+		"furniture_expansion_plus:shopping_stall_pink":	"file(furniture_expansion_plus/20_gold.json)",
+		"furniture_expansion_plus:shopping_stall_blue":	"file(furniture_expansion_plus/20_gold.json)",
+		"furniture_expansion_plus:shopping_stall_green":	"file(furniture_expansion_plus/20_gold.json)",
+		"furniture_expansion_plus:toys:plushie_toy_mudkip":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:toys:plushie_toy_meowth":	"file(furniture_expansion_plus/10_gold.json)",
+		"furniture_expansion_plus:toys:plushie_toy_snorlax":	"file(furniture_expansion_plus/10_gold.json)",
 
 
 		"homesweethome:food:honey_basket":"file(homesweethome/honey_basket.json)",
@@ -83,12 +88,23 @@
 		"taiga_biome/data/biome/taiga_generation_data.json":"file(taiga_biome/taiga_generation_data.json)",
 		"taiga_biome:trees:dark_pine:ancient": "file(norsehearth/remove_destination.json)",
 
-		"swamp_goblins/data/monster_tuning/firefly_human_encounter/trapper.json": "file(swamp_goblins/npc_trapper.json)"
+		"swamp_goblins/data/monster_tuning/firefly_human_encounter/trapper.json": "file(swamp_goblins/npc_trapper.json)",
+
+		"ems_biome_savanna/locales/en.json": "file(ems_biome_savanna/en.json)",
+		"ems_biome_savanna/data/biome/savanna.json": "file(ems_biome_savanna/savanna.json)",
+		"ems_biome_savanna/data/biome/savanna_generation_data.json": "file(ems_biome_savanna/savanna_generation_data.json)",
+		"ems_biome_savanna/data/biome/savanna_mining_loot_table.json": "file(ems_biome_savanna/savanna_mining_loot_table.json)",
+		"mod_repairer/ems_biome_savanna/savanna.json": "stonehearth_ace/ems_biome_savanna/savanna_ace.json",
+		"mod_repairer/ems_biome_savanna/savanna_generation_data.json": "stonehearth_ace/ems_biome_savanna/savanna_generation_data_ace.json"
 	},
 	"overrides" : {
 		"trapper_plus/jobs/trapper/trapper_modded.lua":	"file(trapper_plus/trapper.lua)",
 
 		"norsehearth/jobs/worker/worker_outfit/worker_outfit.qb":		"file(norsehearth/worker_outfit.qb)",
-		"norsehearth/jobs/worker/worker_outfit/worker_outfit_female.qb":"file(norsehearth/worker_outfit_female.qb)"
+		"norsehearth/jobs/worker/worker_outfit/worker_outfit_female.qb":"file(norsehearth/worker_outfit_female.qb)",
+		
+		"ems_biome_savanna/data/biome/images/savanna_story_normal.png": "file(ems_biome_savanna/images/savanna_story_normal.png)",
+		"stonehearth_ace/ems_biome_savanna/savanna_ace.json": "file(ems_biome_savanna/savanna_ace.json)",
+		"stonehearth_ace/ems_biome_savanna/savanna_generation_data_ace.json": "file(ems_biome_savanna/savanna_generation_data_ace.json)"
 	}
 }

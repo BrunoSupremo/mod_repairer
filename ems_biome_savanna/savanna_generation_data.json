@@ -1,0 +1,119 @@
+{
+	"palettes": {
+		"spring": {
+			"meteor": "#2C2D40"
+		},
+		"summer": {
+			"null": "#FF00FF",
+			"unknown": "#25221A",
+			"bedrock": "#514E45",
+			"rock_layer_1": "#C65C3F",
+			"rock_layer_2": "#C95B40",
+			"rock_layer_3": "#CC5A41",
+			"rock_layer_4": "#D15A42",
+			"rock_layer_5": "#D15A42",
+			"rock_layer_6": "#D15A42",
+			"rock_layer_7": "#D15A42",
+			"rock_layer_8": "#D15A42",
+			"soil_light": "#C65C3F",
+			"soil_dark": "#C64C3F",
+			"dirt": "#807147",
+			"dirt_edge_1": "#918154",
+			"grass": "#B7BC33",
+			"grass_edge_1": "#C9D038",
+			"grass_edge_2": "#C0C635",
+			"grass_hills": "#B7BC33",
+			"grass_hills_edge_1": "#C9D038",
+			"grass_hills_edge_2": "#C0C635",
+			"copper_ore": "#C87533",
+			"tin_ore": "#B0A080",
+			"iron_ore": "#90B0D0",
+			"silver_ore": "#CCCCCC",
+			"gold_ore": "#FFD700",
+			"coal": "#021C24",
+			"meteor": "#2C2D40"
+		},
+		"autumn": {
+			"null": "#FF00FF",
+			"unknown": "#25221A",
+			"bedrock": "#514E45",
+			"rock_layer_1": "#C65C3F",
+			"rock_layer_2": "#C95B40",
+			"rock_layer_3": "#CC5A41",
+			"rock_layer_4": "#D15A42",
+			"rock_layer_5": "#D15A42",
+			"rock_layer_6": "#D15A42",
+			"rock_layer_7": "#D15A42",
+			"rock_layer_8": "#D15A42",
+			"soil_light": "#C65C3F",
+			"soil_dark": "#C64C3F",
+			"dirt": "#807147",
+			"dirt_edge_1": "#918154",
+			"grass": "#A7CC33",
+			"grass_edge_1": "#B9E038",
+			"grass_edge_2": "#B0D635",
+			"grass_hills": "#A7CC33",
+			"grass_hills_edge_1": "#B9E038",
+			"grass_hills_edge_2": "#B0D635",
+			"copper_ore": "#C87533",
+			"tin_ore": "#B0A080",
+			"iron_ore": "#90B0D0",
+			"silver_ore": "#CCCCCC",
+			"gold_ore": "#FFD700",
+			"coal": "#021C24",
+			"meteor": "#2C2D40"
+		},
+		"winter": {
+			"null": "#FF00FF",
+			"unknown": "#25221A",
+			"bedrock": "#514E45",
+			"rock_layer_1": "#C65C3F",
+			"rock_layer_2": "#C95B40",
+			"rock_layer_3": "#CC5A41",
+			"rock_layer_4": "#D15A42",
+			"rock_layer_5": "#D15A42",
+			"rock_layer_6": "#D15A42",
+			"rock_layer_7": "#D15A42",
+			"rock_layer_8": "#D15A42",
+			"soil_light": "#C65C3F",
+			"soil_dark": "#C64C3F",
+			"dirt": "#807147",
+			"dirt_edge_1": "#918154",
+			"grass": "#B7AC33",
+			"grass_edge_1": "#C9C038",
+			"grass_edge_2": "#C0B635",
+			"grass_hills": "#B7AC33",
+			"grass_hills_edge_1": "#C9C038",
+			"grass_hills_edge_2": "#C0B635",
+			"copper_ore": "#C87533",
+			"tin_ore": "#B0A080",
+			"iron_ore": "#90B0D0",
+			"silver_ore": "#CCCCCC",
+			"gold_ore": "#FFD700",
+			"coal": "#021C24",
+			"meteor": "#2C2D40"
+		}
+	},
+	"landscape": {
+		"trees": {	   
+			"sizes": {
+				"stonehearth:trees:joshua": {
+					"large": 0
+				} 
+			}
+		},
+		"scattered": {
+			"plants": {
+				"weights": {
+					"plains": {
+						"1": {
+							"stonehearth:plants:tumbleweed": 35,
+							"stonehearth:plants:cactus": 10,
+							"stonehearth:plants:pear_cactus": 10
+						}
+					}
+				}
+			}
+		}
+	}
+}
