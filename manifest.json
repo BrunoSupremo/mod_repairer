@@ -10,16 +10,24 @@
 		"findersword"
 	],
 	"dependencies": [
+		"ems_biome_savanna",
 		"furniture_expansion_plus",
 		"homesweethome",
-		"trapper_plus",
+		"kmnky_landmarks",
 		"norsehearth",
 		"taiga_biome",
-		"ems_biome_savanna"
+		"trapper_plus"
 	],
 	"default_locale" : "en",
 	"server_init_script" : "file(server)",
 	"mixintos" : {
+		"ems_biome_savanna/locales/en.json": "file(ems_biome_savanna/en.json)",
+		"ems_biome_savanna/data/biome/savanna.json": "file(ems_biome_savanna/savanna.json)",
+		"ems_biome_savanna/data/biome/savanna_generation_data.json": "file(ems_biome_savanna/savanna_generation_data.json)",
+		"ems_biome_savanna/data/biome/savanna_mining_loot_table.json": "file(ems_biome_savanna/savanna_mining_loot_table.json)",
+		"mod_repairer/ems_biome_savanna/savanna.json": "stonehearth_ace/ems_biome_savanna/savanna_ace.json",
+		"mod_repairer/ems_biome_savanna/savanna_generation_data.json": "stonehearth_ace/ems_biome_savanna/savanna_generation_data_ace.json",
+
 		"furniture_expansion_plus/entities/decorations/blue_awning/blue_awning.json":"file(furniture_expansion_plus/awning.json)",
 		"furniture_expansion_plus/entities/decorations/blue_awning/blue_awning_ghost.json":"file(furniture_expansion_plus/awning_ghost.json)",
 		"furniture_expansion_plus/entities/decorations/red_awning/red_awning.json":"file(furniture_expansion_plus/awning.json)",
@@ -61,13 +69,13 @@
 		"furniture_expansion_plus:toys:plushie_toy_meowth":	"file(furniture_expansion_plus/10_gold.json)",
 		"furniture_expansion_plus:toys:plushie_toy_snorlax":	"file(furniture_expansion_plus/10_gold.json)",
 
-
 		"homesweethome:food:honey_basket":"file(homesweethome/honey_basket.json)",
-		"homesweethome/jobs/carpenter/recipes/recipes.json" : "file(homesweethome/carpenter_recipes.json)",
-		"homesweethome/data/gm/campaigns/the_ascendancy/arcs/encounters/unlock_carpenter.json" : "file(homesweethome/unlock_carpenter.json)",
-		
-		"stonehearth:jobs:trapper":"file(trapper_plus/trapper_description.json)",
-		"trapper_plus/mixins/scaly_skin_categorizer.json":"file(trapper_plus/varanus_skin.json)",
+		"homesweethome/jobs/carpenter/recipes/recipes.json": "file(homesweethome/carpenter_recipes.json)",
+		"homesweethome/data/gm/campaigns/the_ascendancy/arcs/encounters/unlock_carpenter.json": "file(homesweethome/unlock_carpenter.json)",
+
+		"kmnky_landmarks/landmarks/32x_bridge.json":		"file(kmnky_landmarks/allowed_in_any_biome.json)",
+		"kmnky_landmarks/landmarks/64x_forest_circle.json":	"file(kmnky_landmarks/allowed_in_any_biome.json)",
+		"kmnky_landmarks/landmarks/64x_stone_circle.json":	"file(kmnky_landmarks/allowed_in_any_biome.json)",
 
 		"stonehearth:biome:index": "file(norsehearth/biome_index.json)",
 		"norsehearth:biome:norsehearth_biome":"file(norsehearth/norsehearth_biome.json)",
@@ -83,28 +91,24 @@
 		"norsehearth:weapons:basic_norseling_sword":	"file(norsehearth/10_gold.json)",
 		"norsehearth:weapons:barrow_sword":	"file(norsehearth/10_gold.json)",
 
+		"swamp_goblins/data/monster_tuning/firefly_human_encounter/trapper.json": "file(swamp_goblins/npc_trapper.json)",
+
 		"stonehearth:biome:index": "file(taiga_biome/biome_index.json)",
 		"taiga_biome:biome:taiga":"file(taiga_biome/taiga.json)",
 		"taiga_biome/data/biome/taiga_generation_data.json":"file(taiga_biome/taiga_generation_data.json)",
 		"taiga_biome:trees:dark_pine:ancient": "file(norsehearth/remove_destination.json)",
 
-		"swamp_goblins/data/monster_tuning/firefly_human_encounter/trapper.json": "file(swamp_goblins/npc_trapper.json)",
-
-		"ems_biome_savanna/locales/en.json": "file(ems_biome_savanna/en.json)",
-		"ems_biome_savanna/data/biome/savanna.json": "file(ems_biome_savanna/savanna.json)",
-		"ems_biome_savanna/data/biome/savanna_generation_data.json": "file(ems_biome_savanna/savanna_generation_data.json)",
-		"ems_biome_savanna/data/biome/savanna_mining_loot_table.json": "file(ems_biome_savanna/savanna_mining_loot_table.json)",
-		"mod_repairer/ems_biome_savanna/savanna.json": "stonehearth_ace/ems_biome_savanna/savanna_ace.json",
-		"mod_repairer/ems_biome_savanna/savanna_generation_data.json": "stonehearth_ace/ems_biome_savanna/savanna_generation_data_ace.json"
+		"stonehearth:jobs:trapper":"file(trapper_plus/trapper_description.json)",
+		"trapper_plus/mixins/scaly_skin_categorizer.json":"file(trapper_plus/varanus_skin.json)"
 	},
 	"overrides" : {
-		"trapper_plus/jobs/trapper/trapper_modded.lua":	"file(trapper_plus/trapper.lua)",
+		"ems_biome_savanna/data/biome/images/savanna_story_normal.png": "file(ems_biome_savanna/images/savanna_story_normal.png)",
+		"stonehearth_ace/ems_biome_savanna/savanna_ace.json": "file(ems_biome_savanna/savanna_ace.json)",
+		"stonehearth_ace/ems_biome_savanna/savanna_generation_data_ace.json": "file(ems_biome_savanna/savanna_generation_data_ace.json)",
 
 		"norsehearth/jobs/worker/worker_outfit/worker_outfit.qb":		"file(norsehearth/worker_outfit.qb)",
 		"norsehearth/jobs/worker/worker_outfit/worker_outfit_female.qb":"file(norsehearth/worker_outfit_female.qb)",
-		
-		"ems_biome_savanna/data/biome/images/savanna_story_normal.png": "file(ems_biome_savanna/images/savanna_story_normal.png)",
-		"stonehearth_ace/ems_biome_savanna/savanna_ace.json": "file(ems_biome_savanna/savanna_ace.json)",
-		"stonehearth_ace/ems_biome_savanna/savanna_generation_data_ace.json": "file(ems_biome_savanna/savanna_generation_data_ace.json)"
+
+		"trapper_plus/jobs/trapper/trapper_modded.lua":	"file(trapper_plus/trapper.lua)"
 	}
 }
