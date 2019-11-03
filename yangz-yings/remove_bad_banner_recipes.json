@@ -1,0 +1,14 @@
+{
+	"craftable_recipes": {
+		"outdoor": {
+			"recipes": {
+				"mixintypes":{
+					"red_banner_wall_small":"remove",
+					"brown_banner_wall_small":"remove",
+					"grey_banner_wall_small":"remove",
+					"yellow_banner_wall_small":"remove"
+				}
+			}
+		}
+	}
+}

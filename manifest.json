@@ -16,7 +16,8 @@
 		"kmnky_landmarks",
 		"norsehearth",
 		"taiga_biome",
-		"trapper_plus"
+		"trapper_plus",
+		"yangz-yings"
 	],
 	"default_locale" : "en",
 	"server_init_script" : "file(server)",
@@ -99,7 +100,9 @@
 		"taiga_biome:trees:dark_pine:ancient": "file(norsehearth/remove_destination.json)",
 
 		"stonehearth:jobs:trapper":"file(trapper_plus/trapper_description.json)",
-		"trapper_plus/mixins/scaly_skin_categorizer.json":"file(trapper_plus/varanus_skin.json)"
+		"trapper_plus/mixins/scaly_skin_categorizer.json":"file(trapper_plus/varanus_skin.json)",
+
+		"yangz-yings/jobs/painter/recipes/recipes.json":"file(yangz-yings/remove_bad_banner_recipes.json)"
 	},
 	"overrides" : {
 		"ems_biome_savanna/data/biome/images/savanna_story_normal.png": "file(ems_biome_savanna/images/savanna_story_normal.png)",
@@ -109,6 +112,9 @@
 		"norsehearth/jobs/worker/worker_outfit/worker_outfit.qb":		"file(norsehearth/worker_outfit.qb)",
 		"norsehearth/jobs/worker/worker_outfit/worker_outfit_female.qb":"file(norsehearth/worker_outfit_female.qb)",
 
-		"trapper_plus/jobs/trapper/trapper_modded.lua":	"file(trapper_plus/trapper.lua)"
+		"trapper_plus/jobs/trapper/trapper_modded.lua":	"file(trapper_plus/trapper.lua)",
+
+		"yangz-yings/jobs/painter/painter_outfit/painter_outfit.qb":		"file(yangz-yings/painter_outfit.qb)",
+		"yangz-yings/jobs/painter/painter_outfit/painter_outfit_female.qb":	"file(yangz-yings/painter_outfit_female.qb)"
 	}
 }
