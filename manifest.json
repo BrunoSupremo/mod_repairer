@@ -10,6 +10,7 @@
 		"findersword"
 	],
 	"dependencies": [
+		"dvoid_mbs_training",
 		"ems_biome_savanna",
 		"furniture_expansion_plus",
 		"homesweethome",
@@ -22,6 +23,10 @@
 	"default_locale" : "en",
 	"server_init_script" : "file(server)",
 	"mixintos" : {
+		"dvoid_mbs_training/recipes/herbalist/candle_holder_recipe.json":	"file(dvoid_mbs_training/stop_smart_crafting.json)",
+		"dvoid_mbs_training/recipes/herbalist/ink_phial_recipe.json":	"file(dvoid_mbs_training/stop_smart_crafting.json)",
+		"dvoid_mbs_training/recipes/herbalist/waterskin_berry_juice_recipe.json":	"file(dvoid_mbs_training/stop_smart_crafting.json)",
+
 		"ems_biome_savanna/locales/en.json": "file(ems_biome_savanna/en.json)",
 		"ems_biome_savanna/data/biome/savanna.json": "file(ems_biome_savanna/savanna.json)",
 		"ems_biome_savanna/data/biome/savanna_generation_data.json": "file(ems_biome_savanna/savanna_generation_data.json)",
