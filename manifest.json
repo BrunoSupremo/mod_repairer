@@ -18,7 +18,6 @@
 		"kmnky_landmarks",
 		"norsehearth",
 		"taiga_biome",
-		"trapper_plus",
 		"yangz-yings"
 	],
 	"default_locale" : "en",
@@ -100,15 +99,10 @@
 		"norsehearth:weapons:basic_norseling_sword":	"file(norsehearth/10_gold.json)",
 		"norsehearth:weapons:barrow_sword":	"file(norsehearth/10_gold.json)",
 
-		"swamp_goblins/data/monster_tuning/firefly_human_encounter/trapper.json": "file(swamp_goblins/npc_trapper.json)",
-
 		"stonehearth:biome:index": "file(taiga_biome/biome_index.json)",
 		"taiga_biome:biome:taiga":"file(taiga_biome/taiga.json)",
 		"taiga_biome/data/biome/taiga_generation_data.json":"file(taiga_biome/taiga_generation_data.json)",
 		"taiga_biome:trees:dark_pine:ancient": "file(norsehearth/remove_destination.json)",
-
-		"stonehearth:jobs:trapper":"file(trapper_plus/trapper_description.json)",
-		"trapper_plus/mixins/scaly_skin_categorizer.json":"file(trapper_plus/varanus_skin.json)",
 
 		"yangz-yings/jobs/painter/recipes/recipes.json":"file(yangz-yings/remove_bad_banner_recipes.json)",
 
@@ -123,8 +117,6 @@
 
 		"norsehearth/jobs/worker/worker_outfit/worker_outfit.qb":		"file(norsehearth/worker_outfit.qb)",
 		"norsehearth/jobs/worker/worker_outfit/worker_outfit_female.qb":"file(norsehearth/worker_outfit_female.qb)",
-
-		"trapper_plus/jobs/trapper/trapper_modded.lua":	"file(trapper_plus/trapper.lua)",
 
 		"yangz-yings/jobs/painter/painter_outfit/painter_outfit.qb":		"file(yangz-yings/painter_outfit.qb)",
 		"yangz-yings/jobs/painter/painter_outfit/painter_outfit_female.qb":	"file(yangz-yings/painter_outfit_female.qb)"

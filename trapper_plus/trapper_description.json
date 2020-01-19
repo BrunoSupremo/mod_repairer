@@ -1,9 +1,0 @@
-{
-	"roles":["trapper_job", "hunter", "crafter", "field_work"],
-	"initial_num_animal_traps": {
-		"fish_trap": 3
-	},
-	"initial_num_siege_weapons": {
-		"fish_trap": 3
-	}
-}
