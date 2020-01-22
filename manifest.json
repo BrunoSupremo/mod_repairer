@@ -16,6 +16,7 @@
 		"furniture_expansion_plus",
 		"homesweethome",
 		"kmnky_landmarks",
+		"nordlingmod",
 		"norsehearth",
 		"taiga_biome",
 		"yangz-yings"
@@ -84,6 +85,8 @@
 		"kmnky_landmarks/landmarks/32x_bridge.json":		"file(kmnky_landmarks/allowed_in_any_biome.json)",
 		"kmnky_landmarks/landmarks/64x_forest_circle.json":	"file(kmnky_landmarks/allowed_in_any_biome.json)",
 		"kmnky_landmarks/landmarks/64x_stone_circle.json":	"file(kmnky_landmarks/allowed_in_any_biome.json)",
+
+		"nordlingmod/jobs/blacksmith/recipes/recipes.json": "miner_prof/jobs/blacksmith/recipes/recipes.json",
 
 		"stonehearth:biome:index": "file(norsehearth/biome_index.json)",
 		"norsehearth:biome:norsehearth_biome":"file(norsehearth/norsehearth_biome.json)",
