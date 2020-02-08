@@ -19,6 +19,7 @@
 		"nordlingmod",
 		"norsehearth",
 		"taiga_biome",
+		"Piles_Plus",
 		"yangz-yings"
 	],
 	"default_locale" : "en",
@@ -120,6 +121,9 @@
 
 		"norsehearth/jobs/worker/worker_outfit/worker_outfit.qb":		"file(norsehearth/worker_outfit.qb)",
 		"norsehearth/jobs/worker/worker_outfit/worker_outfit_female.qb":"file(norsehearth/worker_outfit_female.qb)",
+
+		"Piles_Plus/entities/substitutions/material_tags/small_pelt.json":"file(Piles_Plus/small_pelt.json)",
+		"Piles_Plus/entities/substitutions/material_tags/large_pelt.json":"file(Piles_Plus/large_pelt.json)",
 
 		"yangz-yings/jobs/painter/painter_outfit/painter_outfit.qb":		"file(yangz-yings/painter_outfit.qb)",
 		"yangz-yings/jobs/painter/painter_outfit/painter_outfit_female.qb":	"file(yangz-yings/painter_outfit_female.qb)"
