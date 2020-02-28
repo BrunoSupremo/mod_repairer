@@ -1,0 +1,7 @@
+{
+	"jobs": {
+		"settlementdecor:jobs:gardener": {
+			"description": "file(nordlingmod_gardener_description.json)"
+		}
+	}
+}

@@ -21,6 +21,7 @@
 		"norsehearth",
 		"taiga_biome",
 		"Piles_Plus",
+		"settlementdecor",
 		"yangz-yings"
 	],
 	"default_locale" : "en",
@@ -88,7 +89,14 @@
 		"kmnky_landmarks/landmarks/64x_forest_circle.json":	"file(kmnky_landmarks/allowed_in_any_biome.json)",
 		"kmnky_landmarks/landmarks/64x_stone_circle.json":	"file(kmnky_landmarks/allowed_in_any_biome.json)",
 
-		"nordlingmod/jobs/blacksmith/recipes/recipes.json": "miner_prof/jobs/blacksmith/recipes/recipes.json",
+		"nordlingmod/jobs/blacksmith/recipes/recipes.json": [
+			"miner_prof/jobs/blacksmith/recipes/recipes.json",
+			"settlementdecor/mixins/blacksmith_recipes.json"
+		],
+		"nordlingmod:jobs:index": "/settlementdecor/nordlingmod/jobs/inject_gardener.json",
+		"nordlingmod/data/biome/forest_generation_data.json": "/settlementdecor/nordlingmod/add_wild_plants.json",
+		"nordlingmod/data/nordlings_initial_crops.json": "/settlementdecor/nordlingmod/add_crops.json",
+		"settlementdecor/locales/en.json": "/nordlingmod/settlementdecor/en_mixin_nordlingmod.json",
 
 		"stonehearth:biome:index": "file(norsehearth/biome_index.json)",
 		"norsehearth:biome:norsehearth_biome":"file(norsehearth/norsehearth_biome.json)",
@@ -122,6 +130,11 @@
 
 		"kmnky_traits/data/traits/barbarian/barbarian.lua":	"file(kmnky_traits/barbarian.lua)",
 		"kmnky_traits/data/traits/pacifist/pacifist.lua":	"file(kmnky_traits/pacifist.lua)",
+		
+		"nordlingmod/settlementdecor/en_mixin_nordlingmod.json": "file(settlementdecor/en_mixin_nordlingmod.json)",
+		"settlementdecor/nordlingmod/jobs/inject_gardener.json": "file(nordlingmod/gardener_job_index.json)",
+		"settlementdecor/nordlingmod/add_wild_plants.json": "file(nordlingmod/settlementdecor_forest_biome.json)",
+		"settlementdecor/nordlingmod/add_crops.json": "file(nordlingmod/settlementdecor_initial_crops.json)",
 
 		"norsehearth/jobs/worker/worker_outfit/worker_outfit.qb":		"file(norsehearth/worker_outfit.qb)",
 		"norsehearth/jobs/worker/worker_outfit/worker_outfit_female.qb":"file(norsehearth/worker_outfit_female.qb)",

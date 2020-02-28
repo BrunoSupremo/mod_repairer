@@ -1,0 +1,46 @@
+{
+	"landscape": {
+		"placement_table": {
+			"settlementdecor:plant:box_plant": {
+				"placement_type": "dense",
+				"parameters": {
+					"grid_multiple": 2,
+					"item_density": 0.2,
+					"exclusion_radius": 1
+				}
+			},
+			"settlementdecor:plant:foxfire": {
+				"placement_type": "dense",
+				"parameters": {
+					"grid_multiple": 3,
+					"item_density": 0.4,
+					"exclusion_radius": 1
+				}
+			}
+		},
+		"scattered": {
+			"plants": {
+				"weights": {
+					"plains": {
+						"1": {
+							"settlementdecor:plant:box_plant": 0.5
+						}
+					},
+					"foothills": {
+						"1": {
+							"settlementdecor:plant:foxfire": 3
+						},
+						"2": {
+							"settlementdecor:plant:foxfire": 2
+						}
+					},
+					"mountains": {
+						"1": {
+							"settlementdecor:plant:foxfire": 1
+						}
+					}
+				}
+			}
+		}
+	}
+}

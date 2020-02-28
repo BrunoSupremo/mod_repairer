@@ -1,0 +1,4 @@
+{
+	"mixins": "settlementdecor:jobs:gardener",
+	"parent_job" : "stonehearth:jobs:worker"
+}

@@ -1,0 +1,8 @@
+{
+	"crops_by_kingdom": {
+		"nordlingmod:kingdoms:nordlings": {
+			"box_plant": true,
+			"foxfire": true
+		}
+	}
+}
