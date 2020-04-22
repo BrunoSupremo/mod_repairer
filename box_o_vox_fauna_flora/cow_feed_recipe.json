@@ -1,0 +1,11 @@
+{
+	"mixintypes": {
+		"ingredients": "override"
+	},
+	"ingredients": [
+		{
+			"material": "fiber resource",
+			"count": 4
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"mixintypes": {
+		"ingredients": "override"
+	},
+	"ingredients": [
+		{
+			"material": "fiber resource",
+			"count": 1
+		},
+		{
+			"material": "food_container raw_food vegetable",
+			"count": 1
+		},
+		{
+			"material": "fruit",
+			"count": 1
+		}
+	]
+}
