@@ -10,7 +10,6 @@
 		"findersword"
 	],
 	"dependencies": [
-		"box_o_vox_fauna_flora",
 		"candledark",
 		"dvoid_mbs_training",
 		"ems_biome_savanna",
@@ -28,17 +27,6 @@
 	"default_locale" : "en",
 	"server_init_script" : "file(server)",
 	"mixintos" : {
-		"box_o_vox_fauna_flora:entities:food:banana_cream_pie": "file(box_o_vox_fauna_flora/banana_cream_pie.json)",
-		"box_o_vox_fauna_flora:entities:food:apple_pie": "file(box_o_vox_fauna_flora/apple_pie.json)",
-		"box_o_vox_fauna_flora/jobs/cook/recipes/cow_feed_recipe.json": [
-			"file(box_o_vox_fauna_flora/cow_feed_recipe.json)",
-			"stonehearth_ace/box_o_vox_fauna_flora/cow_feed_use_thatch.json"
-		],
-		"box_o_vox_fauna_flora/jobs/cook/recipes/pig_feed_recipe.json": [
-			"file(box_o_vox_fauna_flora/pig_feed_recipe.json)",
-			"stonehearth_ace/box_o_vox_fauna_flora/pig_feed_use_thatch.json"
-		],
-
 		"candledark:buffs:plagued":"file(candledark/plagued.json)",
 
 		"dvoid_mbs_training/recipes/herbalist/candle_holder_recipe.json":	"file(dvoid_mbs_training/stop_smart_crafting.json)",
@@ -134,9 +122,6 @@
 		"tower_defense/data/compatible_mods.json": "file(tower_defense/compatible_mods.json)"
 	},
 	"overrides" : {
-		"stonehearth_ace/box_o_vox_fauna_flora/cow_feed_use_thatch.json": "file(box_o_vox_fauna_flora/cow_feed_recipe_ace.json)",
-		"stonehearth_ace/box_o_vox_fauna_flora/pig_feed_use_thatch.json": "file(box_o_vox_fauna_flora/pig_feed_recipe_ace.json)",
-
 		"candledark/data/buffs/plagued/plagued.lua":"file(candledark/plagued.lua)",
 
 		"ems_biome_savanna/data/biome/images/savanna_story_normal.png": "file(ems_biome_savanna/images/savanna_story_normal.png)",
