@@ -22,6 +22,7 @@
 		"taiga_biome",
 		"Piles_Plus",
 		"settlementdecor",
+		"veloren_elves",
 		"yangz-yings"
 	],
 	"default_locale" : "en",
@@ -141,6 +142,8 @@
 
 		"Piles_Plus/entities/substitutions/material_tags/small_pelt.json":"file(Piles_Plus/small_pelt.json)",
 		"Piles_Plus/entities/substitutions/material_tags/large_pelt.json":"file(Piles_Plus/large_pelt.json)",
+
+		"veloren_elves/data/traits/passion_paladin/paladin.lua":"file(veloren_elves/paladin.lua)",
 
 		"yangz-yings/jobs/painter/painter_outfit/painter_outfit.qb":		"file(yangz-yings/painter_outfit.qb)",
 		"yangz-yings/jobs/painter/painter_outfit/painter_outfit_female.qb":	"file(yangz-yings/painter_outfit_female.qb)"
