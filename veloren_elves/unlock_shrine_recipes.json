@@ -1,0 +1,13 @@
+{
+	"type": "encounter",
+	"unlock_recipe_info": {
+		"mixintypes": {
+			"recipe_key": "override"
+		},
+		"recipe_key": [
+			"signage_decoration:ve_shrine_hare",
+			"signage_decoration:ve_shrine_stag",
+			"signage_decoration:ve_shrine_wolf"
+		]
+	}
+}

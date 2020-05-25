@@ -1,0 +1,10 @@
+{
+	"campaigns": {
+		"town_progression": {
+			"mixintypes": {
+				"na_town_progression": "remove"
+			},
+			"veloren_elves_town_progression": "/veloren_elves/data/gm/campaigns/town_progression/town_progression_campaign.json"
+		}
+	}
+}

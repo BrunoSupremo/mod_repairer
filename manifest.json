@@ -118,6 +118,11 @@
 		"taiga_biome/data/biome/taiga_generation_data.json":"file(taiga_biome/taiga_generation_data.json)",
 		"taiga_biome:trees:dark_pine:ancient": "file(norsehearth/remove_destination.json)",
 
+		"veloren_elves:data:gm_index": "file(veloren_elves/gm_index.json)",
+		"veloren_elves:jobs:mason": "file(veloren_elves/ve_mason_description.json)",
+		"veloren_elves/jobs/mason/recipes/recipes.json": "file(veloren_elves/mason_recipes.json)",
+		"veloren_elves/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/unlock_shrine_recipes.json": "file(veloren_elves/unlock_shrine_recipes.json)",
+
 		"yangz-yings/jobs/painter/recipes/recipes.json":"file(yangz-yings/remove_bad_banner_recipes.json)",
 
 		"tower_defense/data/compatible_mods.json": "file(tower_defense/compatible_mods.json)"

@@ -1,0 +1,22 @@
+{
+	"craftable_recipes": {
+		"signage_decoration": {
+			"recipes": {
+				"mixintypes": {
+					"shrine_hare": "remove",
+					"shrine_stag": "remove",
+					"shrine_wolf": "remove"
+				},
+				"ve_shrine_hare": {
+					"recipe": "/veloren_elves/jobs/mason/recipes/shrine_hare.json"
+				},
+				"ve_shrine_stag": {
+					"recipe": "/veloren_elves/jobs/mason/recipes/shrine_stag.json"
+				},
+				"ve_shrine_wolf": {
+					"recipe": "/veloren_elves/jobs/mason/recipes/shrine_wolf.json"
+				}
+			}
+		}
+	}
+}

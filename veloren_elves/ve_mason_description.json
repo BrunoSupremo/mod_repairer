@@ -1,0 +1,6 @@
+{
+	"type": "job",
+	"crafter": {
+		"recipe_list": "/veloren_elves/jobs/mason/recipes/recipes.json"
+	}
+}
