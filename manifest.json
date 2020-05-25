@@ -122,6 +122,9 @@
 		"veloren_elves:jobs:mason": "file(veloren_elves/ve_mason_description.json)",
 		"veloren_elves/jobs/mason/recipes/recipes.json": "file(veloren_elves/mason_recipes.json)",
 		"veloren_elves/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/unlock_shrine_recipes.json": "file(veloren_elves/unlock_shrine_recipes.json)",
+		"veloren_elves/jobs/mason/recipes/shrine_hare.json": "file(veloren_elves/shrine_hare.json)",
+		"veloren_elves/jobs/mason/recipes/shrine_stag.json": "file(veloren_elves/shrine_stag.json)",
+		"veloren_elves/jobs/mason/recipes/shrine_wolf.json": "file(veloren_elves/shrine_wolf.json)",
 
 		"yangz-yings/jobs/painter/recipes/recipes.json":"file(yangz-yings/remove_bad_banner_recipes.json)",
 
