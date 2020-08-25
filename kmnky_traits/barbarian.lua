@@ -13,7 +13,8 @@ end
 
 function Barbarian:post_activate()
 	local json = radiant.resources.load_json(self._sv._uri)
-	local population = stonehearth.population:get_population(self._sv._entity:get_player_id())
+	local player_id = self._sv._entity:get_player_id()
+	local population = stonehearth.population:get_population(player_id)
 
 	self:don_outfit()
 
@@ -34,6 +35,13 @@ function Barbarian:post_activate()
 				end)
 			end
 			local allowed = job_comp:get_allowed_jobs()
+			if not allowed then
+				local job_index = stonehearth.player:get_jobs(player_id)
+				allowed = {}
+				for job_uri,data in pairs(job_index) do
+					allowed[job_uri] = true
+				end
+			end
 			allowed["stonehearth:jobs:knight"] = false
 			job_comp:set_allowed_jobs(allowed)
 			self._sv._entity:get_component('stonehearth:unit_info')._sv._made_barbarian = true

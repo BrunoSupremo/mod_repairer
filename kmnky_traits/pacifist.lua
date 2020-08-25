@@ -15,20 +15,34 @@ function Pacifist:post_activate()
 	local customization_component = self._sv._entity:get_component('stonehearth:customization')
 	customization_component:change_customization("eyebrows", "flower")
 
-	local population = stonehearth.population:get_population(self._sv._entity:get_player_id())
+	local player_id = self._sv._entity:get_player_id()
+	local population = stonehearth.population:get_population(player_id)
 	self.pop_listener = radiant.events.listen_once(population, 'stonehearth:population:citizen_count_changed', function()
 		if not self._sv._entity:get_component('stonehearth:unit_info')._sv._made_pacifist then
 
 			local job_comp = self._sv._entity:get_component('stonehearth:job')
 			local allowed = job_comp:get_allowed_jobs()
-			for job_uri, _ in pairs(allowed) do
-				if stonehearth.job:get_job_info(self._sv._entity:get_player_id(), job_uri):is_combat_job() then
-					allowed[job_uri] = false
+			if allowed then
+				for job_uri, _ in pairs(allowed) do
+					if stonehearth.job:get_job_info(player_id, job_uri):is_combat_job() then
+						allowed[job_uri] = false
+					end
+				end
+			else
+				local job_index = stonehearth.player:get_jobs(player_id)
+				allowed = {}
+				for job_uri,data in pairs(job_index) do
+					allowed[job_uri] = not stonehearth.job:get_job_info(player_id, job_uri):is_combat_job()
 				end
 			end
 			job_comp:set_allowed_jobs(allowed)
 			self._sv._entity:get_component('stonehearth:unit_info')._sv._made_pacifist = true
 
+			local options = {}
+			options.dont_drop_talisman = true
+			options.skip_visual_effects = true
+			local current_job_uri = job_comp._sv.job_uri
+			job_comp:promote_to(current_job_uri, options)
 		end
 	end)
 

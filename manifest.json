@@ -137,8 +137,9 @@
 		"stonehearth_ace/ems_biome_savanna/savanna_ace.json": "file(ems_biome_savanna/savanna_ace.json)",
 		"stonehearth_ace/ems_biome_savanna/savanna_generation_data_ace.json": "file(ems_biome_savanna/savanna_generation_data_ace.json)",
 
-		"kmnky_traits/data/traits/barbarian/barbarian.lua":	"file(kmnky_traits/barbarian.lua)",
-		"kmnky_traits/data/traits/pacifist/pacifist.lua":	"file(kmnky_traits/pacifist.lua)",
+		"kmnky_traits/data/traits/barbarian/barbarian.lua":		"file(kmnky_traits/barbarian.lua)",
+		"kmnky_traits/data/traits/divine_soul/divine_soul.lua":	"file(kmnky_traits/divine_soul.lua)",
+		"kmnky_traits/data/traits/pacifist/pacifist.lua":		"file(kmnky_traits/pacifist.lua)",
 		
 		"nordlingmod/settlementdecor/en_mixin_nordlingmod.json": "file(settlementdecor/en_mixin_nordlingmod.json)",
 		"settlementdecor/nordlingmod/jobs/inject_gardener.json": "file(nordlingmod/gardener_job_index.json)",
