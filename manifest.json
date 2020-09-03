@@ -91,6 +91,7 @@
 		"kmnky_landmarks/landmarks/64x_stone_circle.json":	"file(kmnky_landmarks/allowed_in_any_biome.json)",
 
 		"nordlingmod/jobs/blacksmith/recipes/recipes.json": [
+			"candledark/jobs/blacksmith/recipes/recipes.json",
 			"miner_prof/jobs/blacksmith/recipes/recipes.json",
 			"settlementdecor/mixins/blacksmith_recipes.json"
 		],
@@ -117,6 +118,8 @@
 		"taiga_biome:biome:taiga":"file(taiga_biome/taiga.json)",
 		"taiga_biome/data/biome/taiga_generation_data.json":"file(taiga_biome/taiga_generation_data.json)",
 		"taiga_biome:trees:dark_pine:ancient": "file(norsehearth/remove_destination.json)",
+
+		"settlementdecor/recipes/robust_door_recipe.json":"file(settlementdecor/10_effort.json)",
 
 		"veloren_elves:data:gm_index": "file(veloren_elves/gm_index.json)",
 		"veloren_elves:jobs:mason": "file(veloren_elves/ve_mason_description.json)",
