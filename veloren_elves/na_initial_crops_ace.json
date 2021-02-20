@@ -1,0 +1,9 @@
+{
+   "crops_by_kingdom": {
+      "veloren_elves:kingdoms:veloren_elves": {
+        "berry_bush": true,
+		"chestnut_tree": true,
+		"apple_tree": true
+      }
+   }
+}

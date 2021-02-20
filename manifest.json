@@ -10,6 +10,7 @@
 		"findersword"
 	],
 	"dependencies": [
+	    "bunny_jobs",
 		"candledark",
 		"dvoid_mbs_training",
 		"ems_biome_savanna",
@@ -92,6 +93,7 @@
 
 		"nordlingmod/jobs/blacksmith/recipes/recipes.json": [
 			"candledark/jobs/blacksmith/recipes/recipes.json",
+			"glassworks/mixins/blacksmith_recipes.json",
 			"miner_prof/jobs/blacksmith/recipes/recipes.json",
 			"settlementdecor/mixins/blacksmith_recipes.json"
 		],
@@ -121,6 +123,7 @@
 
 		"settlementdecor/recipes/robust_door_recipe.json":"file(settlementdecor/10_effort.json)",
 
+		"veloren_elves/data/na_initial_crops.json": "stonehearth_ace/veloren_elves/farmer_ace_crops_added.json",
 		"veloren_elves:data:gm_index": "file(veloren_elves/gm_index.json)",
 		"veloren_elves:jobs:mason": "file(veloren_elves/ve_mason_description.json)",
 		"veloren_elves/jobs/mason/recipes/recipes.json": "file(veloren_elves/mason_recipes.json)",
@@ -128,12 +131,40 @@
 		"veloren_elves/jobs/mason/recipes/shrine_hare.json": "file(veloren_elves/shrine_hare.json)",
 		"veloren_elves/jobs/mason/recipes/shrine_stag.json": "file(veloren_elves/shrine_stag.json)",
 		"veloren_elves/jobs/mason/recipes/shrine_wolf.json": "file(veloren_elves/shrine_wolf.json)",
-
+        
+		"yangz-yings/entities/decoration/paintings/frostfeast_painting/frostfeast_painting.json": "file(yangz-yings/remove_mob_collision_type.json)",
+		"yangz-yings/entities/decoration/paintings/frostfeast_painting/frostfeast_painting_ghost.json": "file(yangz-yings/painting_model_origin_ghost.json)",
+		"yangz-yings/entities/decoration/paintings/frostfeast_painting_framed/frostfeast_painting_framed.json": "file(yangz-yings/remove_mob_collision_type.json)",
+		"yangz-yings/entities/decoration/paintings/frostfeast_painting_framed/frostfeast_painting_framed_ghost.json": "file(yangz-yings/painting_model_origin_ghost.json)",
+		"yangz-yings/entities/decoration/paintings/i_fox/i_fox.json": "file(yangz-yings/remove_mob_collision_type.json)",
+		"yangz-yings/entities/decoration/paintings/i_fox/i_fox_ghost.json": "file(yangz-yings/painting_model_origin_ghost.json)",
+		"yangz-yings/entities/decoration/paintings/i_fox_framed/i_fox_framed.json": "file(yangz-yings/remove_mob_collision_type.json)",
+		"yangz-yings/entities/decoration/paintings/i_fox_framed/i_fox_framed_ghost.json": "file(yangz-yings/painting_model_origin_ghost.json)",
+		"yangz-yings/entities/decoration/paintings/nachtwacht/nachtwacht.json": "file(yangz-yings/remove_mob_collision_type.json)",
+		"yangz-yings/entities/decoration/paintings/nachtwacht/nachtwacht_ghost.json": "file(yangz-yings/painting_model_origin_ghost.json)",
+		"yangz-yings/entities/decoration/paintings/nachtwacht/nachtwacht_framed.json": "file(yangz-yings/remove_mob_collision_type.json)",
+		"yangz-yings/entities/decoration/paintings/nachtwacht/nachtwacht_framed_ghost.json": "file(yangz-yings/painting_model_origin_ghost.json)",
+		"yangz-yings/entities/decoration/paintings/sunset/sunset.json": "file(yangz-yings/remove_mob_collision_type.json)",
+		"yangz-yings/entities/decoration/paintings/sunset/sunset_ghost.json": "file(yangz-yings/painting_model_origin_ghost.json)",
+		"yangz-yings/entities/decoration/paintings/sunset_framed/sunset_framed.json": "file(yangz-yings/remove_mob_collision_type.json)",
+		"yangz-yings/entities/decoration/paintings/sunset_framed/sunset_framed_ghost.json": "file(yangz-yings/painting_model_origin_ghost.json)",
+		"yangz-yings/entities/decoration/paintings/mondriaan/mondriaan.json": "file(yangz-yings/remove_mob_collision_type.json)",
+		"yangz-yings/entities/decoration/paintings/mondriaan/mondriaan_ghost.json": "file(yangz-yings/painting_model_origin_ghost.json)",
+		"yangz-yings/entities/decoration/paintings/mondriaan_framed/mondriaan_framed.json": "file(yangz-yings/remove_mob_collision_type.json)",
+		"yangz-yings/entities/decoration/paintings/mondriaan_framed/mondriaan_framed_ghost.json": "file(yangz-yings/painting_model_origin_ghost.json)",
 		"yangz-yings/jobs/painter/recipes/recipes.json":"file(yangz-yings/remove_bad_banner_recipes.json)",
 
 		"tower_defense/data/compatible_mods.json": "file(tower_defense/compatible_mods.json)"
 	},
 	"overrides" : {
+	    "stonehearth/data/rigs/entities/rabbit_biped/effects/work_weaver.json": "file(bunny_jobs/work_weaver.json)",
+	    "bunny_jobs/entities/armor/cloth_padded_helmet/cloth_padded_helmet_orc_female.qb":	"file(bunny_jobs/cloth_padded_helmet_orc_female.qb)",
+		"bunny_jobs/entities/armor/cloth_padded_helmet/cloth_padded_helmet_orc_male.qb":	"file(bunny_jobs/cloth_padded_helmet_orc_male.qb)",
+		"bunny_jobs/entities/armor/cloth_padded_helmet/cloth_padded_helmet_rabbit.qb":		"file(bunny_jobs/cloth_padded_helmet_rabbit.qb)",
+		"bunny_jobs/entities/armor/leather_helmet/leather_helmet_orc_female.qb":"file(bunny_jobs/leather_helmet_orc_female.qb)",
+		"bunny_jobs/entities/armor/leather_helmet/leather_helmet_orc_male.qb":	"file(bunny_jobs/leather_helmet_orc_male.qb)",
+		"bunny_jobs/entities/armor/leather_helmet/leather_helmet_rabbit.qb":	"file(bunny_jobs/leather_helmet_rabbit.qb)",
+	
 		"candledark/data/buffs/plagued/plagued.lua":"file(candledark/plagued.lua)",
 
 		"ems_biome_savanna/data/biome/images/savanna_story_normal.png": "file(ems_biome_savanna/images/savanna_story_normal.png)",
@@ -155,8 +186,20 @@
 		"Piles_Plus/entities/substitutions/material_tags/small_pelt.json":"file(Piles_Plus/small_pelt.json)",
 		"Piles_Plus/entities/substitutions/material_tags/large_pelt.json":"file(Piles_Plus/large_pelt.json)",
 
+		"stonehearth_ace/veloren_elves/farmer_ace_crops_added.json": "file(veloren_elves/na_initial_crops_ace.json)",
 		"veloren_elves/data/traits/passion_paladin/paladin.lua":"file(veloren_elves/paladin.lua)",
+		"veloren_elves/entities/armor/elven_helmet/elven_helmet_female.qb": "file(veloren_elves/elven_helmet_female.qb)",
 
+        "yangz-yings/entities/decoration/paintings/frostfeast_painting/frostfeast_painting.qb": "file(yangz-yings/frostfeast_painting.qb)",
+		"yangz-yings/entities/decoration/paintings/frostfeast_painting_framed/frostfeast_painting_framed.qb": "file(yangz-yings/frostfeast_painting_framed.qb)",
+		"yangz-yings/entities/decoration/paintings/i_fox/i_fox.qb": "file(yangz-yings/i_fox.qb)",
+		"yangz-yings/entities/decoration/paintings/i_fox_framed/i_fox_framed.qb": "file(yangz-yings/i_fox_framed.qb)",
+		"yangz-yings/entities/decoration/paintings/mondriaan/mondriaan.qb": "file(yangz-yings/mondriaan.qb)",
+		"yangz-yings/entities/decoration/paintings/mondriaan_framed/mondriaan_framed.qb": "file(yangz-yings/mondriaan_framed.qb)",
+		"yangz-yings/entities/decoration/paintings/nachtwacht/nachtwacht.qb": "file(yangz-yings/nachtwacht.qb)",
+		"yangz-yings/entities/decoration/paintings/nachtwacht_framed/nachtwacht_framed.qb": "file(yangz-yings/nachtwacht_framed.qb)",
+		"yangz-yings/entities/decoration/paintings/sunset/sunset.qb": "file(yangz-yings/sunset.qb)",
+		"yangz-yings/entities/decoration/paintings/sunset_framed/sunset_framed.qb": "file(yangz-yings/sunset_framed.qb)",
 		"yangz-yings/jobs/painter/painter_outfit/painter_outfit.qb":		"file(yangz-yings/painter_outfit.qb)",
 		"yangz-yings/jobs/painter/painter_outfit/painter_outfit_female.qb":	"file(yangz-yings/painter_outfit_female.qb)"
 	}
