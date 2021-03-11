@@ -1,0 +1,51 @@
+{
+   "mixins" : "stonehearth:landmark_blocks",
+   "#8BB270": {
+      "terrain_tag": "ur_color_01"
+   },
+   "#676D74": {
+      "terrain_tag": "ur_color_02"
+   },
+   "#304435": {
+      "terrain_tag": "ur_color_03"
+   },
+   "#6E5B21": {
+      "terrain_tag": "ur_color_04"
+   },
+   "#2C3339": {
+      "terrain_tag": "ur_color_05"
+   },
+   "#918D86": {
+      "terrain_tag": "ur_color_06"
+   },
+   "#82807B": {
+      "terrain_tag": "ur_color_07"
+   },
+   "#76726B": {
+      "terrain_tag": "ur_color_08"
+   },
+   "#823E2D": {
+      "terrain_tag": "ur_color_09"
+   },
+   "#964D3B": {
+      "terrain_tag": "ur_color_10"
+   },
+   "#643124": {
+      "terrain_tag": "ur_color_11"
+   },
+   "#65573A": {
+      "terrain_tag": "ur_color_12"
+   },
+   "#A59465": {
+      "terrain_tag": "ur_color_13"
+   },
+   "#958455": {
+      "terrain_tag": "ur_color_14"
+   },
+   "#86764A": {
+      "terrain_tag": "ur_color_15"
+   },
+   "#302118": {
+      "terrain_tag": "ur_color_16"
+   }
+}

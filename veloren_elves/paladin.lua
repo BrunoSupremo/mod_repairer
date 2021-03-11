@@ -21,15 +21,14 @@ function Paladin:activate()
 
 	self.pop_listener = radiant.events.listen_once(population, 'stonehearth:population:citizen_count_changed', function()
 		if not self._sv._entity:get_component('stonehearth:unit_info')._sv._made_paladin then
+			local options = {}
+			options.dont_drop_talisman = true
+			options.skip_visual_effects = true
 			local job_comp = self._sv._entity:get_component('stonehearth:job')
-			local allowed = job_comp:get_allowed_jobs()
-			if allowed["veloren_elves:jobs:paladin"] then
-				local options = {}
-				options.dont_drop_talisman = true
-				options.skip_visual_effects = true
-				self._sv._entity:get_component('stonehearth:job'):promote_to('veloren_elves:jobs:paladin', options)
-				self._sv._entity:get_component('stonehearth:unit_info')._sv._made_paladin = true
-			end
+			local able_to_be_paladin = pcall(function()
+				job_comp:promote_to('veloren_elves:jobs:paladin', options)
+			end)
+			self._sv._entity:get_component('stonehearth:unit_info')._sv._made_paladin = true
 		end
 	end)
 	

@@ -23,6 +23,7 @@
 		"taiga_biome",
 		"Piles_Plus",
 		"settlementdecor",
+		"ur_ziggurat",
 		"veloren_elves",
 		"yangz-yings"
 	],
@@ -122,9 +123,17 @@
 		"taiga_biome:trees:dark_pine:ancient": "file(norsehearth/remove_destination.json)",
 
 		"settlementdecor/recipes/robust_door_recipe.json":"file(settlementdecor/10_effort.json)",
+		
+		"ur_ziggurat/scenarios/static/landmarks/ziggurat.json": "file(ur_ziggurat/ziggurat.json)",
 
 		"veloren_elves/data/na_initial_crops.json": "stonehearth_ace/veloren_elves/farmer_ace_crops_added.json",
 		"veloren_elves:data:gm_index": "file(veloren_elves/gm_index.json)",
+		"veloren_elves/entities/armor/elven_helmet/elven_helmet.json": "file(veloren_elves/elven_helmet.json)",
+		"veloren_elves/entities/armor/elven_shield/elven_shield.json": "file(veloren_elves/elven_shield.json)",
+		"veloren_elves/jobs/blacksmith/recipes/elven_helmet.json": "file(veloren_elves/elven_helmet_recipe.json)",
+		"veloren_elves/jobs/blacksmith/recipes/holy_sword.json": "file(veloren_elves/holy_sword_recipe.json)",
+		"veloren_elves/jobs/blacksmith/recipes/paladin_hammer.json": "file(veloren_elves/paladin_hammer_recipe.json)",
+		"veloren_elves/jobs/blacksmith/recipes/paladins_shield_recipe.json": "file(veloren_elves/paladins_shield_recipe.json)",
 		"veloren_elves:jobs:mason": "file(veloren_elves/ve_mason_description.json)",
 		"veloren_elves/jobs/mason/recipes/recipes.json": "file(veloren_elves/mason_recipes.json)",
 		"veloren_elves/data/gm/campaigns/town_progression/arcs/trigger/town_progression/encounters/unlock_shrine_recipes.json": "file(veloren_elves/unlock_shrine_recipes.json)",
@@ -185,10 +194,23 @@
 
 		"Piles_Plus/entities/substitutions/material_tags/small_pelt.json":"file(Piles_Plus/small_pelt.json)",
 		"Piles_Plus/entities/substitutions/material_tags/large_pelt.json":"file(Piles_Plus/large_pelt.json)",
+		
+		"ur_ziggurat:landmark_blocks": "file(ur_ziggurat/landmark_blocks.json)",
 
 		"stonehearth_ace/veloren_elves/farmer_ace_crops_added.json": "file(veloren_elves/na_initial_crops_ace.json)",
 		"veloren_elves/data/traits/passion_paladin/paladin.lua":"file(veloren_elves/paladin.lua)",
+		"veloren_elves/entities/armor/paladins_shield/paladins_shield.png": "file(veloren_elves/paladins_shield.png)",
+		"veloren_elves/entities/armor/paladins_shield/paladins_shield_iconic.qb": "file(veloren_elves/paladins_shield_iconic.qb)",
 		"veloren_elves/entities/armor/elven_helmet/elven_helmet_female.qb": "file(veloren_elves/elven_helmet_female.qb)",
+		"veloren_elves/entities/humans/female/female_1.json": "file(veloren_elves/female_1.json)",
+		"veloren_elves/entities/humans/male/male_1.json": "file(veloren_elves/male_1.json)",
+		"veloren_elves/entities/armor/paladin_fullplate/paladin_fullplate.png": "file(veloren_elves/paladin_fullplate.png)",
+		"veloren_elves/entities/armor/paladin_helmet_1/paladin_helmet_1.png": "file(veloren_elves/paladin_helmet_1.png)",
+		"veloren_elves/entities/weapons/holy_sword/holy_sword.png": "file(veloren_elves/holy_sword.png)",
+		"veloren_elves/entities/weapons/holy_sword/holy_sword.qb": "file(veloren_elves/holy_sword.qb)",
+		"veloren_elves/jobs/paladin/images/icon.png": "file(veloren_elves/icon.png)",
+		"veloren_elves/ui/start_menu/dock.png": "file(veloren_elves/dock.png)",
+		"veloren_elves/ui/start_menu/town.png": "file(veloren_elves/town.png)",
 
         "yangz-yings/entities/decoration/paintings/frostfeast_painting/frostfeast_painting.qb": "file(yangz-yings/frostfeast_painting.qb)",
 		"yangz-yings/entities/decoration/paintings/frostfeast_painting_framed/frostfeast_painting_framed.qb": "file(yangz-yings/frostfeast_painting_framed.qb)",
