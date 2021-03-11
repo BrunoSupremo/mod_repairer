@@ -1,0 +1,17 @@
+{
+   "mixins": "/stonehearth/entities/humans/female/female_1.json",
+    "components": {
+       "model_variants": {
+        "default": {
+		    "mixintypes" :{
+					"models": "override"
+			},
+            "models": [
+               "/veloren_elves/entities/humans/female/head_female.qb",
+               "/stonehearth/entities/humans/female/body.qb",
+               "/stonehearth/entities/humans/female/eyes.qb"
+            ]
+         }
+      }
+   }
+}

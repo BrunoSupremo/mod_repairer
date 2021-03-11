@@ -1,0 +1,8 @@
+{
+   "recipe_name": "i18n(veloren_elves:entities.jobs.blacksmith.recipes.paladins_shield_recipe.recipe_name)",
+   "description": "i18n(veloren_elves:entities.jobs.blacksmith.recipes.paladins_shield_recipe.description)",
+   "flavor": "i18n(veloren_elves:entities.jobs.blacksmith.recipes.paladins_shield_recipe.flavor)",
+   "mixintypes": {
+    "work_effect": "remove"
+   }
+}

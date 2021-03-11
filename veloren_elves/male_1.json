@@ -1,0 +1,17 @@
+{
+   "mixins": "/stonehearth/entities/humans/male/male_1.json",
+   "components": {
+       "model_variants": {
+        "default": {
+		    "mixintypes" :{
+					"models": "override"
+			},
+            "models": [
+               "/veloren_elves/entities/humans/male/head_male.qb",
+               "/stonehearth/entities/humans/male/body.qb",
+               "/stonehearth/entities/humans/male/eyes.qb"
+            ]
+         }
+      }
+   }
+}
