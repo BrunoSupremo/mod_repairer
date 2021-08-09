@@ -1,0 +1,159 @@
+{
+	"mixintypes": {
+		"weather": "remove"
+	},
+	"applied_manifests": {
+		"palepeaks": "file(pale_peaks/manifest.json)"
+	},
+	"default_starting_season": "summer",
+	"seasons": {
+		"spring": {
+			"display_name": "i18n(stonehearth:data.biome.temperate.seasons.spring.display_name)",
+			"description": "",
+			"start_day": 0,
+			"weather": [
+				{
+					"uri": "stonehearth:weather:sunny",
+					"weight": 10
+				},
+				{
+					"uri": "stonehearth:weather:cloudy",
+					"weight": 4
+				},
+				{
+					"uri": "stonehearth:weather:rain",
+					"weight": 4
+				},
+				{
+					"uri": "stonehearth:weather:rain:sunny",
+					"weight": 4
+				},
+				{
+					"uri": "stonehearth:weather:foggy",
+					"weight": 3
+				},
+				{
+					"uri": "stonehearth:weather:lucky",
+					"weight": 0.05
+				}
+			]
+		},
+		"summer": {
+			"display_name": "i18n(stonehearth:data.biome.temperate.seasons.summer.display_name)",
+			"description": "",
+			"start_day": 21,
+			"weather": [
+				{
+					"uri": "stonehearth:weather:sunny",
+					"weight": 5
+				},
+				{
+					"uri": "stonehearth:weather:cloudy",
+					"weight": 70
+				},
+				{
+					"uri": "stonehearth:weather:rain",
+					"weight": 60
+				},
+				{
+					"uri": "stonehearth:weather:thunderstorm",
+					"weight": 10
+				},
+				{
+					"uri": "stonehearth:weather:windy",
+					"weight": 20
+				},
+				{
+					"uri": "stonehearth:weather:sandstorm",
+					"weight": 0
+				},
+				{
+					"uri": "stonehearth:weather:snow",
+					"weight": 0
+				},
+				{
+					"uri": "stonehearth:weather:blizzard",
+					"weight": 0
+				},
+				{
+					"uri": "stonehearth:weather:foggy",
+					"weight": 80
+				},
+				{
+					"uri": "stonehearth:weather:lucky",
+					"weight": 0.1
+				}
+			]
+		},
+		"autumn": {
+			"display_name": "i18n(stonehearth:data.biome.temperate.seasons.autumn.display_name)",
+			"description": "",
+			"start_day": 42,
+			"weather": [
+				{
+					"uri": "stonehearth:weather:sunny",
+					"weight": 4
+				},
+				{
+					"uri": "stonehearth:weather:cloudy",
+					"weight": 4
+				},
+				{
+					"uri": "stonehearth:weather:rain",
+					"weight": 6
+				},
+				{
+					"uri": "stonehearth:weather:rain:sunny",
+					"weight": 6
+				},
+				{
+					"uri": "stonehearth:weather:thunderstorm",
+					"weight": 4
+				},
+				{
+					"uri": "stonehearth:weather:foggy",
+					"weight": 1
+				},
+				{
+					"uri": "stonehearth:weather:lucky",
+					"weight": 0.05
+				}
+			]
+		},
+		"winter": {
+			"display_name": "i18n(stonehearth:data.biome.temperate.seasons.winter.display_name)",
+			"description": "",
+			"start_day": 63,
+			"weather": [
+				{
+					"uri": "stonehearth:weather:sunny",
+					"weight": 2
+				},
+				{
+					"uri": "stonehearth:weather:cloudy",
+					"weight": 2
+				},
+				{
+					"uri": "stonehearth:weather:windy",
+					"weight": 2
+				},
+				{
+					"uri": "stonehearth:weather:snow",
+					"weight": 6
+				},
+				{
+					"uri": "stonehearth:weather:snow:sunny",
+					"weight": 6
+				},
+				{
+					"uri": "stonehearth:weather:blizzard",
+					"weight": 2
+				},
+				{
+					"uri": "stonehearth:weather:lucky",
+					"weight": 0.025
+				}
+			]
+		}
+	}
+}

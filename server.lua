@@ -1,10 +1,8 @@
 mod_repairer = {}
-print("Mod Repairer version 21.2.20")
+print("Mod Repairer version 21.8.8")
 
 --[[
 todo:
-
-veloren_elves mod
 
 port taiga seeds to norsehearth
 

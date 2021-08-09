@@ -1,0 +1,7 @@
+{
+	"components": {
+		"stonehearth:resource_node": {
+			"resource": "stonehearth:resources:fiber:coarse_fiber_bundle"
+		}
+	}
+}

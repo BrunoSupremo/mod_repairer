@@ -89,6 +89,12 @@
 
 		"stonehearth_ace/scenarios/static/landmarks/96x_peatland_1.json":	"file(add_to_savanna_too.json)",
 		"stonehearth_ace/scenarios/static/landmarks/96x_peatland_2.json":	"file(add_to_savanna_too.json)",
-		"stonehearth_ace/scenarios/static/landmarks/96x_peatland_3.json":	"file(add_to_savanna_too.json)"
+		"stonehearth_ace/scenarios/static/landmarks/96x_peatland_3.json":	"file(add_to_savanna_too.json)",
+		
+		"stonehearth_ace/scenarios/static/forest_temperate/forest_temperate.json":	"file(add_to_savanna_too.json)",
+		"stonehearth_ace/scenarios/static/water_lily_pad/water_lily_pad.json":	"file(add_to_savanna_too.json)",
+		"stonehearth_ace/scenarios/static/water_lily_pad_large/water_lily_pad_large.json":	"file(add_to_savanna_too.json)",
+		"stonehearth_ace/scenarios/static/water_lily_desert/water_lily_desert.json":	"file(add_to_savanna_too.json)",
+		"stonehearth_ace/scenarios/static/water_lily_desert_large/water_lily_desert_large.json":	"file(add_to_savanna_too.json)"
 	}
 }

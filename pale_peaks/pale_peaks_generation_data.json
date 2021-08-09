@@ -1,0 +1,588 @@
+{
+	"mixins": "/stonehearth/data/biome/temperate_generation_data.json",
+	"type": "biome_generation_data",
+	"ring_tesselation": {
+		"mixintypes": { 
+			"dirt": "override",
+			"grass": "override",
+			"grass_hills": "override"
+		},
+		"dirt": [
+			{
+				"width": 8,
+				"name": "dirt_edge_1"
+			}
+		],
+		"grass": [
+			{
+				"width": 4,
+				"name": "grass_edge_1"
+			},
+			{
+				"width": 6,
+				"name": "grass_edge_2"
+			}
+		],
+		"grass_hills": [
+			{
+				"width": 3,
+				"name": "grass_hills_edge_1"
+			},
+			{
+				"width": 5,
+				"name": "grass_hills_edge_2"
+			}
+		]
+	},
+	"season": "spring",
+	"palettes": {
+		"minimap": {
+			"water": "#a8abc2"
+		},
+		"spring": {
+			"null": "#ff00ff",
+			"unknown": "#444d3a",
+			"bedrock": "#a49771",
+			"rock_layer_1": "#a49771",
+			"rock_layer_2": "#a49771",
+			"rock_layer_3": "#aca181",
+			"rock_layer_4": "#aca181",
+			"rock_layer_5": "#aca181",
+			"rock_layer_6": "#b5ab8e",
+			"rock_layer_7": "#b5ab8e",
+			"rock_layer_8": "#b5ab8e",
+			"soil_light": "#62593d",
+			"soil_dark": "#5a5136",
+			"dirt": "#5a5136",
+			"dirt_edge_1": "#394130",
+			"grass": "#313929",
+			"grass_edge_1": "#444d3a",
+			"grass_edge_2": "#394130",
+			"grass_hills": "#313929",
+			"grass_hills_edge_1": "#444d3a",
+			"grass_hills_edge_2": "#394130",
+			"copper_ore": "#c76f28",
+			"tin_ore": "#b09358",
+			"iron_ore": "#679bcf",
+			"silver_ore": "#cccccc",
+			"gold_ore": "#ffd700",
+			"coal": "#021c24"
+		},
+		"summer": {
+			"null": "#ff00ff",
+			"unknown": "#444d3a",
+			"bedrock": "#a49771",
+			"rock_layer_1": "#a49771",
+			"rock_layer_2": "#a49771",
+			"rock_layer_3": "#aca181",
+			"rock_layer_4": "#aca181",
+			"rock_layer_5": "#aca181",
+			"rock_layer_6": "#b5ab8e",
+			"rock_layer_7": "#b5ab8e",
+			"rock_layer_8": "#b5ab8e",
+			"soil_light": "#62593d",
+			"soil_dark": "#5a5136",
+			"dirt": "#5a5136",
+			"dirt_edge_1": "#394130",
+			"grass": "#313929",
+			"grass_edge_1": "#444d3a",
+			"grass_edge_2": "#394130",
+			"grass_hills": "#313929",
+			"grass_hills_edge_1": "#444d3a",
+			"grass_hills_edge_2": "#394130",
+			"copper_ore": "#c76f28",
+			"tin_ore": "#b09358",
+			"iron_ore": "#679bcf",
+			"silver_ore": "#cccccc",
+			"gold_ore": "#ffd700",
+			"coal": "#021c24"
+		},
+		"autumn": {
+			"null": "#ff00ff",
+			"unknown": "#444d3a",
+			"bedrock": "#a49771",
+			"rock_layer_1": "#a49771",
+			"rock_layer_2": "#a49771",
+			"rock_layer_3": "#aca181",
+			"rock_layer_4": "#aca181",
+			"rock_layer_5": "#aca181",
+			"rock_layer_6": "#b5ab8e",
+			"rock_layer_7": "#b5ab8e",
+			"rock_layer_8": "#b5ab8e",
+			"soil_light": "#62593d",
+			"soil_dark": "#5a5136",
+			"dirt": "#5a5136",
+			"dirt_edge_1": "#394130",
+			"grass": "#313929",
+			"grass_edge_1": "#444d3a",
+			"grass_edge_2": "#394130",
+			"grass_hills": "#313929",
+			"grass_hills_edge_1": "#444d3a",
+			"grass_hills_edge_2": "#394130",
+			"copper_ore": "#c76f28",
+			"tin_ore": "#b09358",
+			"iron_ore": "#679bcf",
+			"silver_ore": "#cccccc",
+			"gold_ore": "#ffd700",
+			"coal": "#021c24"
+		},
+		"winter": {
+			"null": "#ff00ff",
+			"unknown": "#444d3a",
+			"bedrock": "#a49771",
+			"rock_layer_1": "#a49771",
+			"rock_layer_2": "#a49771",
+			"rock_layer_3": "#aca181",
+			"rock_layer_4": "#aca181",
+			"rock_layer_5": "#aca181",
+			"rock_layer_6": "#b5ab8e",
+			"rock_layer_7": "#b5ab8e",
+			"rock_layer_8": "#b5ab8e",
+			"soil_light": "#62593d",
+			"soil_dark": "#5a5136",
+			"dirt": "#5a5136",
+			"dirt_edge_1": "#394130",
+			"grass": "#313929",
+			"grass_edge_1": "#444d3a",
+			"grass_edge_2": "#394130",
+			"grass_hills": "#313929",
+			"grass_hills_edge_1": "#444d3a",
+			"grass_hills_edge_2": "#394130",
+			"copper_ore": "#c76f28",
+			"tin_ore": "#b09358",
+			"iron_ore": "#679bcf",
+			"silver_ore": "#cccccc",
+			"gold_ore": "#ffd700",
+			"coal": "#021c24"
+		}
+	},
+	"terrain": {
+		"noise_map_settings": {
+			"octaves": 10,
+			"persistence_ratio": 1,
+			"bandlimit": 1,
+			"aspect_ratio": 3
+		},
+		"plains_percentage": 70,
+		"height_base": 26,
+		"plains": {
+			"step_size": 2,
+			"valley_count": 1,
+			"step_count": 2
+		},
+		"foothills": {
+			"step_size": 5,
+			"step_count": 2
+		},
+		"mountains": {
+			"step_size": 20,
+			"step_count": 11
+		}
+	},
+	"terrain_detailer": {
+		"mountains": {
+			"depth_function": {
+				"octaves": 4,
+				"persistence_ratio": 0.2,
+				"amplitude": 2.5,
+				"layer_thickness": 3,
+				"layer_count": 2,
+				"unit_length": 12
+			},
+			"height_function": {
+				"octaves": 4,
+				"persistence_ratio": 0.1,
+				"amplitude": 2.5,
+				"layer_thickness": 5,
+				"unit_length": 16
+			}
+		},
+		"foothills": {
+			"depth_function": {
+				"octaves": 4,
+				"persistence_ratio": 0.2,
+				"amplitude": 2.5,
+				"layer_thickness": 1,
+				"layer_count": 2,
+				"unit_length": 6
+			},
+			"height_function": {
+				"octaves": 4,
+				"persistence_ratio": 0.1,
+				"amplitude": 2.5,
+				"layer_thickness": 3,
+				"unit_length": 8
+			}
+		},
+		"plains": {
+			"depth_function": {
+				"layer_thickness": 1,
+				"layer_count": 1,
+				"unit_length": 8
+			},
+			"height_function": {
+				"layer_thickness": 1,
+				"unit_length": 8
+			}
+		}
+	},
+	"landscape": {
+		"placement_table": {
+			"pale_peaks:trees:eversting:small": {
+				"placement_type": "dense",
+				"parameters": {
+					"grid_multiple": 2,
+					"item_density": 0.5,
+					"exclusion_radius": 2
+				},
+				"mountains": {
+					"placement_type": "single",
+					"parameters": {
+						"ground_radius": 2,
+						"exclusion_radius": 3
+					}
+				}
+			},
+			"pale_peaks:trees:eversting:medium": {
+				"placement_type": "single",
+				"parameters": {
+					"grid_multiple": 8,
+					"item_density": 0.5,
+					"ground_radius": 2,
+					"exclusion_radius": 2
+				}
+			},
+			"pale_peaks:trees:eversting:large": {
+				"placement_type": "single",
+				"parameters": {
+					"grid_multiple": 8,
+					"item_density": 0.5,
+					"ground_radius": 2,
+					"exclusion_radius": 2
+				}
+			},
+			"stonehearth:plants:brightbell": {
+				"placement_type": "dense",
+				"parameters": {
+					"grid_multiple": 4,
+					"item_density": 0.1,
+					"exclusion_radius": 1
+				}
+			},
+			"stonehearth:plants:frostsnap": {
+				"placement_type": "dense",
+				"parameters": {
+					"grid_multiple": 4,
+					"item_density": 0.2,
+					"exclusion_radius": 1
+				}
+			},
+			"stonehearth:plants:silkweed": {
+				"placement_type": "dense",
+				"parameters": {
+					"grid_multiple": 2,
+					"item_density": 0.8,
+					"exclusion_radius": 1
+				}
+			},
+			"stonehearth:plants:sugarbell": {
+				"placement_type": "dense",
+				"parameters": {
+					"grid_multiple": 4,
+					"item_density": 0.1,
+					"exclusion_radius": 0
+				}
+			},
+			"stonehearth:plants:carrot": {
+				"placement_type": "dense",
+				"parameters": {
+					"grid_multiple": 4,
+					"item_density": 0.1,
+					"exclusion_radius": 0
+				}
+			},
+			"stonehearth:plants:berry_bush": {
+				"placement_type": "pattern",
+				"parameters": {
+					"min_rows": 2,
+					"max_rows": 2,
+					"min_cols": 2,
+					"max_cols": 3,
+					"item_spacing": 5,
+					"item_density": 0.9
+				}
+			},
+			"pale_peaks:boulder:small_1": {
+				"placement_type": "dense",
+				"parameters": {
+					"grid_multiple": 4,
+					"item_density": 0.1,
+					"exclusion_radius": 1
+				}
+			},
+			"pale_peaks:boulder:medium_1": {
+				"placement_type": "single",
+				"parameters": {
+					"ground_radius": 1,
+					"exclusion_radius": 2
+				}
+			},
+			"pale_peaks:boulder:medium_2": {
+				"placement_type": "single",
+				"parameters": {
+					"ground_radius": 1,
+					"exclusion_radius": 2
+				}
+			},
+			"pale_peaks:boulder:medium_3": {
+				"placement_type": "single",
+				"parameters": {
+					"ground_radius": 1,
+					"exclusion_radius": 2
+				}
+			},
+			"pale_peaks:boulder:large_1": {
+				"placement_type": "single",
+				"parameters": {
+					"ground_radius": 2,
+					"exclusion_radius": 3
+				}
+			},
+			"pale_peaks:boulder:large_2": {
+				"placement_type": "single",
+				"parameters": {
+					"ground_radius": 2,
+					"exclusion_radius": 3
+				}
+			}
+		},
+		"trees": {
+			"sizes": {
+				"pale_peaks:trees:eversting": {
+					"small": 0,
+					"medium": 2,
+					"large": 3,
+					"ancient": {
+						"percentage": 0
+					}
+				}
+			},
+			"weights": {
+				"plains": {
+					"1": {
+						"pale_peaks:trees:eversting": 1,
+						"stonehearth:trees:oak": 0.02
+					}
+				},
+				"foothills": {
+					"1": {
+						"pale_peaks:trees:eversting": 4,
+						"stonehearth:trees:oak": 0.1,
+						"stonehearth:trees:juniper": 0.2,
+						"stonehearth:trees:pine": 0.02
+					},
+					"2": {
+						"pale_peaks:trees:eversting": 3,
+						"stonehearth:trees:oak": 0.05,
+						"stonehearth:trees:juniper": 0.2,
+						"stonehearth:trees:pine": 0.1
+					}
+				},
+				"mountains": {
+					"1": {
+						"pale_peaks:trees:eversting": 0.1,
+						"stonehearth:trees:juniper": 0.005,
+						"stonehearth:trees:pine": 0.007
+					},
+					"2": {
+						"pale_peaks:trees:eversting": 0.1,
+						"stonehearth:trees:pine": 0.004
+					}
+				}
+			},
+			"noise_map_parameters": {
+				"mean_offset": {
+					"boundary": -5,
+					"water": 20
+				},
+				"terrain_based": {
+					"plains": {
+						"1": {
+							"density": 1,
+							"mean": -40,
+							"std_dev": 0
+						},
+						"2": {
+							"density": 1,
+							"mean": 10,
+							"std_dev": 50
+						}
+					},
+					"foothills": {
+						"1": {
+							"density": 0.9,
+							"mean": 5,
+							"std_dev": 15
+						},
+						"2": {
+							"density": 0.9,
+							"mean": 8,
+							"std_dev": 20
+						}
+					},
+					"mountains": {
+						"1": {
+							"density": 0.7,
+							"mean": 5,
+							"std_dev": 20
+						},
+						"2": {
+							"density": 0.5,
+							"mean": 0,
+							"std_dev": 30
+						},
+						"3": {
+							"density": 0.3,
+							"mean": -8,
+							"std_dev": 40
+						}
+					}
+				}
+			}
+		},
+		"berries": {
+			"placement": {
+				"uri": "stonehearth:plants:berry_bush",
+				"function": "gaussian",
+				"mean": -50,
+				"std_dev": 30,
+				"mean_offset": {
+					"tree": 100,
+					"water": 0,
+					"boundary": 0
+				},
+				"density": {
+					"plains": 0.6,
+					"foothills": 0.8,
+					"mountains": 0
+				}
+			}
+		},
+		"scattered": {
+			"plants": {
+				"weights": {
+					"plains": {
+						"1": {
+							"stonehearth:plants:brightbell": 1,
+							"stonehearth:plants:silkweed": 1.5,
+							"stonehearth:plants:sugarbell": 0.1,
+							"stonehearth:plants:carrot": 0.2
+						}
+					},
+					"foothills": {
+						"1": {
+							"stonehearth:plants:frostsnap": 1,
+							"stonehearth:plants:brightbell": 7,
+							"stonehearth:plants:silkweed": 1,
+							"stonehearth:plants:sugarbell": 2,
+							"stonehearth:plants:carrot": 1
+						},
+						"2": {
+							"stonehearth:plants:frostsnap": 1,
+							"stonehearth:plants:brightbell": 1,
+							"stonehearth:plants:sugarbell": 4,
+							"stonehearth:plants:carrot": 0.5
+						}
+					},
+					"mountains": {
+						"1": {
+							"stonehearth:plants:frostsnap": 1,
+							"stonehearth:plants:sugarbell": 2
+						},
+						"3": {
+							"stonehearth:plants:frostsnap": 1
+						}
+					}
+				},
+				"noise_map_parameters": {
+					"terrain_based": {
+						"plains": {
+							"1": {
+								"probability": 0,
+								"density": 0.6
+							},
+							"2": {
+								"probability": 0.35,
+								"density": 0.8
+							}
+						},
+						"foothills": {
+							"1": {
+								"probability": 0.35,
+								"density": 0.7
+							}
+						},
+						"mountains": {
+							"1": {
+								"probability": 0.2,
+								"density": 0.7
+							}
+						}
+					}
+				}
+			},
+			"boulders": {
+				"namespace": "pale_peaks:boulder",
+				"noise_map_parameters": {
+					"terrain_based": {
+						"plains": {
+							"1": {
+								"probability": 0,
+								"density": 0.5
+							},
+							"2": {
+								"probability": 0.35,
+								"density": 0.7
+							}
+						},
+						"foothills": {
+							"1": {
+								"probability": 0.15,
+								"density": 0.8
+							}
+						},
+						"mountains": {
+							"1": {
+								"probability": 0,
+								"density": 0.8
+							}
+						}
+					}
+				},
+				"cutoffs": {
+					"small": 0.2,
+					"medium": 0.4
+				}
+			}
+		},
+		"water": {
+			"color": "#a8abc2C0",
+			"depth": {
+				"shallow": 3,
+				"deep": 10
+			},
+			"noise_map_settings": {
+				"persistence_ratio": 0.01,
+				"bandlimit": 10,
+				"octaves": 4,
+				"range": 20000,
+				"aspect_ratio": 1,
+				"mean": {
+					"plains": 40,
+					"foothills": 0,
+					"mountains": 0
+				}
+			}
+		}
+	}
+}

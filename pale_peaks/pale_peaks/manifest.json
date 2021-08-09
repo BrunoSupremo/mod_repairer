@@ -1,0 +1,96 @@
+{
+	"info" : {
+		"name" : "palepeaks_manifest",
+		"deferred_load": true,
+		"version" : 3
+	},
+	"mixintos" :  {
+		"stonehearth/scenarios/static/deer_nest/deer_nest.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/duckduck_nest/duckduck_nest.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/bitsy_ant_nest/bitsy_ant_nest.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/ostrich_nest/ostrich_nest.json":	"file(add_to_pale_peaks_too.json)",
+
+		"stonehearth/scenarios/static/landmarks/64x_cave_chest.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_cave_lake.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_cave_ore_bad_omen.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_cave_ore_lucky_strike.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_cave_ore_small_strike.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_cave_pattern_lucky_snake.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_cave_pattern_ugly_duckling.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_cave_sanctuary.json":	"file(add_to_pale_peaks_too.json)",
+
+		"stonehearth/scenarios/static/landmarks/64x_pattern_moon.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_ruin_building_farm.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_ruin_building_cellar.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/landmarks/64x_ruin_building.json":	"file(add_to_pale_peaks_too.json)",
+
+		"stonehearth/scenarios/static/landmarks/128x_ruin_town_farming.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/landmarks/128x_ruin_town_undead.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/landmarks/128x_stone_collection_1.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/landmarks/128x_stone_collection_2.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/landmarks/128x_stone_collection_3.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/landmarks/128x_rune.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/landmarks/128x_pattern_sun.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth/scenarios/static/landmarks/128x_giant_sleeping.json":	"file(add_to_pale_peaks_too.json)",
+
+		"stonehearth_ace/scenarios/static/bitsy_spider_nest/bitsy_spider_nest.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/stag_beetle_nest/stag_beetle_nest.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/deer_family_nest/deer_family_nest.json":	"file(add_to_pale_peaks_too.json)",
+
+		"stonehearth_ace/scenarios/static/algae_random_nest/algae_random_nest.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/algae_random_nest_small/algae_random_nest_small.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/algae_random_nest_large/algae_random_nest_large.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/algae_red_nest/algae_red_nest.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/daisy_flowers_nest/daisy_flowers_nest.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/bolete_nest/bolete_nest.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/feldspar_boulders_rare/feldspar_boulders_rare.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/marble_boulders_small/marble_boulders_small.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/marble_boulders_mountains/marble_boulders_mountains.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/marble_boulders/marble_boulders.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/underwater_rocks/underwater_rocks.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/underwater_mossy/underwater_mossy.json":	"file(add_to_pale_peaks_too.json)",
+
+		"stonehearth_ace/scenarios/static/landmarks/16x_water_bottom_1.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/16x_water_bottom_2.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/16x_water_bottom_3.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/16x_water_bottom_4.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/16x_water_bottom_5.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/16x_water_bottom_6.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/16x_water_bottom_treasure.json":	"file(add_to_pale_peaks_too.json)",
+
+		"stonehearth_ace/scenarios/static/landmarks/32x_water_bottom_1.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_water_bottom_2.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_water_bottom_3.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_water_bottom_4.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_water_bottom_5.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_water_bottom_6.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_water_bottom_treasure.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_water_bottom_shipwreck.json":	"file(add_to_pale_peaks_too.json)",
+
+		"stonehearth_ace/scenarios/static/landmarks/128x_water_bottom_1.json":	"file(add_to_pale_peaks_too.json)",
+
+		"stonehearth_ace/scenarios/static/landmarks/32x_bear_den.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_cougar_den.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_wolf_den.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_poyo_land.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_sheep_herd.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/16x_duck_pond.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_lil_babis_monument.json": "file(add_to_pale_peaks_too.json)",
+
+		"stonehearth_ace/scenarios/static/landmarks/16x_meteor_iron.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/32x_meteor_iron.json":	"file(add_to_pale_peaks_too.json)",
+
+		"stonehearth_ace/scenarios/static/landmarks/32x_ruin_pillars.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/64x_ruin_pillars.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/64x_ruin_tower.json":	"file(add_to_pale_peaks_too.json)",
+
+		"stonehearth_ace/scenarios/static/landmarks/96x_peatland_1.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/landmarks/96x_peatland_2.json":	"file(add_to_pale_peaks_too.json)",
+		
+		"stonehearth_ace/scenarios/static/forest_temperate/forest_temperate.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/water_lily_pad/water_lily_pad.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/water_lily_pad_large/water_lily_pad_large.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/water_lily_temperate/water_lily_temperate.json":	"file(add_to_pale_peaks_too.json)",
+		"stonehearth_ace/scenarios/static/water_lily_temperate_large/water_lily_temperate_large.json":	"file(add_to_pale_peaks_too.json)"
+	}
+}

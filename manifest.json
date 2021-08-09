@@ -10,7 +10,7 @@
 		"findersword"
 	],
 	"dependencies": [
-	    "bunny_jobs",
+		"bunny_jobs",
 		"candledark",
 		"dvoid_mbs_training",
 		"ems_biome_savanna",
@@ -20,6 +20,9 @@
 		"kmnky_traits",
 		"nordlingmod",
 		"norsehearth",
+		"pale_peaks",
+		"pale_peaks_fjord",
+		"plains_biome",
 		"taiga_biome",
 		"Piles_Plus",
 		"settlementdecor",
@@ -30,6 +33,14 @@
 	"default_locale" : "en",
 	"server_init_script" : "file(server)",
 	"mixintos" : {
+
+		"stonehearth:biome:index":[
+			"file(pale_peaks/biome_index.json)",
+			"file(pale_peaks_fjord/biome_index.json)",
+			"file(norsehearth/biome_index.json)",
+			"file(taiga_biome/biome_index.json)"
+		],
+
 		"candledark:buffs:plagued":"file(candledark/plagued.json)",
 
 		"dvoid_mbs_training/recipes/herbalist/candle_holder_recipe.json":	"file(dvoid_mbs_training/stop_smart_crafting.json)",
@@ -49,7 +60,10 @@
 		"furniture_expansion_plus/entities/decorations/red_awning/red_awning_ghost.json":"file(furniture_expansion_plus/awning_ghost.json)",
 		"furniture_expansion_plus/entities/decorations/red_curtains/red_curtains.json":"file(furniture_expansion_plus/red_curtains.json)",
 		"furniture_expansion_plus/entities/decorations/red_curtains/red_curtains_ghost.json":"file(furniture_expansion_plus/red_curtains_ghost.json)",
-		"furniture_expansion_plus:scarecrow":	"file(furniture_expansion_plus/small_collision.json)",
+		"furniture_expansion_plus:scarecrow":[
+			"file(furniture_expansion_plus/small_collision.json)",
+			"file(furniture_expansion_plus/10_gold.json)"
+		],
 
 		"furniture_expansion_plus:decoration:red_curtains":	"file(furniture_expansion_plus/10_gold.json)",
 		"furniture_expansion_plus:decoration:red_awning":	"file(furniture_expansion_plus/10_gold.json)",
@@ -75,7 +89,6 @@
 		"furniture_expansion_plus:barrel_table":	"file(furniture_expansion_plus/10_gold.json)",
 		"furniture_expansion_plus:barrel_for_one":	"file(furniture_expansion_plus/10_gold.json)",
 		"furniture_expansion_plus:boiling_cabinet":	"file(furniture_expansion_plus/10_gold.json)",
-		"furniture_expansion_plus:scarecrow":	"file(furniture_expansion_plus/10_gold.json)",
 		"furniture_expansion_plus:shopping_stall_purple":	"file(furniture_expansion_plus/20_gold.json)",
 		"furniture_expansion_plus:shopping_stall_pink":	"file(furniture_expansion_plus/20_gold.json)",
 		"furniture_expansion_plus:shopping_stall_blue":	"file(furniture_expansion_plus/20_gold.json)",
@@ -102,12 +115,20 @@
 		"nordlingmod/data/biome/forest_generation_data.json": "/settlementdecor/nordlingmod/add_wild_plants.json",
 		"nordlingmod/data/nordlings_initial_crops.json": "/settlementdecor/nordlingmod/add_crops.json",
 		"settlementdecor/locales/en.json": "/nordlingmod/settlementdecor/en_mixin_nordlingmod.json",
+		
+		"pale_peaks/data/biome/pale_peaks.json": "file(pale_peaks/pale_peaks.json)",
+		"mod_repairer/pale_peaks/pale_peaks.json": "stonehearth_ace/pale_peaks/pale_peaks_ace.json",
+		
+		"pale_peaks_fjord/data/biome/pale_peaks_fjord.json": "file(pale_peaks_fjord/pale_peaks_fjord.json)",
+		"mod_repairer/pale_peaks_fjord/pale_peaks_fjord.json": "stonehearth_ace/pale_peaks_fjord/pale_peaks_fjord_ace.json",
 
-		"stonehearth:biome:index": "file(norsehearth/biome_index.json)",
 		"norsehearth:biome:norsehearth_biome":"file(norsehearth/norsehearth_biome.json)",
 		"norsehearth/data/biome/norsehearth_biome_generation_data.json":"file(norsehearth/norsehearth_biome_generation_data.json)",
 		"norsehearth:jobs:index":"file(norsehearth/job_index.json)",
-		"norsehearth:weapons:barrow_sword": "file(norsehearth/barrow_sword.json)",
+		"norsehearth:weapons:barrow_sword":[
+			"file(norsehearth/barrow_sword.json)",
+			"file(norsehearth/10_gold.json)"
+		],
 		"norsehearth:trees:dark_pine:ancient": "file(norsehearth/remove_destination.json)",
 
 		"norsehearth:armor:barrow_shield":	"file(norsehearth/10_gold.json)",
@@ -115,9 +136,9 @@
 		"norsehearth:decoration:small_runestone":	"file(norsehearth/10_gold.json)",
 		"norsehearth:decoration:large_runestone":	"file(norsehearth/10_gold.json)",
 		"norsehearth:weapons:basic_norseling_sword":	"file(norsehearth/10_gold.json)",
-		"norsehearth:weapons:barrow_sword":	"file(norsehearth/10_gold.json)",
 
-		"stonehearth:biome:index": "file(taiga_biome/biome_index.json)",
+		"plains_biome/entities/decoration/bushbunny/bushbunny.json": "file(plains_biome/bushbunny.json)",
+		
 		"taiga_biome:biome:taiga":"file(taiga_biome/taiga.json)",
 		"taiga_biome/data/biome/taiga_generation_data.json":"file(taiga_biome/taiga_generation_data.json)",
 		"taiga_biome:trees:dark_pine:ancient": "file(norsehearth/remove_destination.json)",
@@ -140,7 +161,8 @@
 		"veloren_elves/jobs/mason/recipes/shrine_hare.json": "file(veloren_elves/shrine_hare.json)",
 		"veloren_elves/jobs/mason/recipes/shrine_stag.json": "file(veloren_elves/shrine_stag.json)",
 		"veloren_elves/jobs/mason/recipes/shrine_wolf.json": "file(veloren_elves/shrine_wolf.json)",
-        
+		"veloren_elves/services/server/mining/mining_loot_tables.json": "file(veloren_elves/veloren_mining_loot_tables.json)",
+
 		"yangz-yings/entities/decoration/paintings/frostfeast_painting/frostfeast_painting.json": "file(yangz-yings/remove_mob_collision_type.json)",
 		"yangz-yings/entities/decoration/paintings/frostfeast_painting/frostfeast_painting_ghost.json": "file(yangz-yings/painting_model_origin_ghost.json)",
 		"yangz-yings/entities/decoration/paintings/frostfeast_painting_framed/frostfeast_painting_framed.json": "file(yangz-yings/remove_mob_collision_type.json)",
@@ -166,14 +188,14 @@
 		"tower_defense/data/compatible_mods.json": "file(tower_defense/compatible_mods.json)"
 	},
 	"overrides" : {
-	    "stonehearth/data/rigs/entities/rabbit_biped/effects/work_weaver.json": "file(bunny_jobs/work_weaver.json)",
-	    "bunny_jobs/entities/armor/cloth_padded_helmet/cloth_padded_helmet_orc_female.qb":	"file(bunny_jobs/cloth_padded_helmet_orc_female.qb)",
+		"stonehearth/data/rigs/entities/rabbit_biped/effects/work_weaver.json": "file(bunny_jobs/work_weaver.json)",
+		"bunny_jobs/entities/armor/cloth_padded_helmet/cloth_padded_helmet_orc_female.qb":	"file(bunny_jobs/cloth_padded_helmet_orc_female.qb)",
 		"bunny_jobs/entities/armor/cloth_padded_helmet/cloth_padded_helmet_orc_male.qb":	"file(bunny_jobs/cloth_padded_helmet_orc_male.qb)",
 		"bunny_jobs/entities/armor/cloth_padded_helmet/cloth_padded_helmet_rabbit.qb":		"file(bunny_jobs/cloth_padded_helmet_rabbit.qb)",
 		"bunny_jobs/entities/armor/leather_helmet/leather_helmet_orc_female.qb":"file(bunny_jobs/leather_helmet_orc_female.qb)",
 		"bunny_jobs/entities/armor/leather_helmet/leather_helmet_orc_male.qb":	"file(bunny_jobs/leather_helmet_orc_male.qb)",
 		"bunny_jobs/entities/armor/leather_helmet/leather_helmet_rabbit.qb":	"file(bunny_jobs/leather_helmet_rabbit.qb)",
-	
+
 		"candledark/data/buffs/plagued/plagued.lua":"file(candledark/plagued.lua)",
 
 		"ems_biome_savanna/data/biome/images/savanna_story_normal.png": "file(ems_biome_savanna/images/savanna_story_normal.png)",
@@ -191,6 +213,12 @@
 
 		"norsehearth/jobs/worker/worker_outfit/worker_outfit.qb":		"file(norsehearth/worker_outfit.qb)",
 		"norsehearth/jobs/worker/worker_outfit/worker_outfit_female.qb":"file(norsehearth/worker_outfit_female.qb)",
+		
+		"stonehearth_ace/pale_peaks/pale_peaks_ace.json": "file(pale_peaks/pale_peaks_ace.json)",
+		"pale_peaks/data/biome/pale_peaks_generation_data.json": "file(pale_peaks/pale_peaks_generation_data.json)",
+		
+		"stonehearth_ace/pale_peaks_fjord/pale_peaks_fjord_ace.json": "file(pale_peaks_fjord/pale_peaks_fjord_ace.json)",
+		"pale_peaks_fjord/data/biome/pale_peaks_fjord_generation_data.json": "file(pale_peaks_fjord/pale_peaks_fjord_generation_data.json)",
 
 		"Piles_Plus/entities/substitutions/material_tags/small_pelt.json":"file(Piles_Plus/small_pelt.json)",
 		"Piles_Plus/entities/substitutions/material_tags/large_pelt.json":"file(Piles_Plus/large_pelt.json)",
@@ -212,7 +240,7 @@
 		"veloren_elves/ui/start_menu/dock.png": "file(veloren_elves/dock.png)",
 		"veloren_elves/ui/start_menu/town.png": "file(veloren_elves/town.png)",
 
-        "yangz-yings/entities/decoration/paintings/frostfeast_painting/frostfeast_painting.qb": "file(yangz-yings/frostfeast_painting.qb)",
+		"yangz-yings/entities/decoration/paintings/frostfeast_painting/frostfeast_painting.qb": "file(yangz-yings/frostfeast_painting.qb)",
 		"yangz-yings/entities/decoration/paintings/frostfeast_painting_framed/frostfeast_painting_framed.qb": "file(yangz-yings/frostfeast_painting_framed.qb)",
 		"yangz-yings/entities/decoration/paintings/i_fox/i_fox.qb": "file(yangz-yings/i_fox.qb)",
 		"yangz-yings/entities/decoration/paintings/i_fox_framed/i_fox_framed.qb": "file(yangz-yings/i_fox_framed.qb)",
