@@ -1,0 +1,13 @@
+{
+   "entity_data": {
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_shieldbash",
+            "effect": "combat_1h_parry",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ]
+   }
+}

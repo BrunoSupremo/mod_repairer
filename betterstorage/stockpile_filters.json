@@ -1,0 +1,17 @@
+{
+	"stockpile": {
+		"misc": {
+			"display_name": "i18n(betterstorage:filters.misc)",
+			"filter": "misc",
+			"ordinal": 20,
+			"categories": {
+				"rotten_food": {
+					"ordinal": 1,
+					"display_name": "i18n(betterstorage:filters.rotten_food)",
+					"icon": "/stonehearth/entities/food/rotten_basket/rotten_basket.png",
+					"filter": "stockpile_rotten_food"
+				}
+			}
+		}
+	}
+}
