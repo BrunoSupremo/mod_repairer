@@ -28,6 +28,7 @@
 		"taiga_biome",
 		"Piles_Plus",
 		"settlementdecor",
+		"smart_crafter",
 		"ur_ziggurat",
 		"veloren_elves",
 		"yangz-yings"
@@ -102,10 +103,13 @@
 		"homesweethome:food:honey_basket":"file(homesweethome/honey_basket.json)",
 		"homesweethome/jobs/carpenter/recipes/recipes.json": "file(homesweethome/carpenter_recipes.json)",
 		"homesweethome/data/gm/campaigns/the_ascendancy/arcs/encounters/unlock_carpenter.json": "file(homesweethome/unlock_carpenter.json)",
+		"homesweethome/data/gm/campaigns/the_ascendancy/ta_recipes_campaign.json": "file(homesweethome/ta_recipes_campaign.json)",
 
 		"kmnky_landmarks/landmarks/32x_bridge.json":		"file(kmnky_landmarks/allowed_in_any_biome.json)",
 		"kmnky_landmarks/landmarks/64x_forest_circle.json":	"file(kmnky_landmarks/allowed_in_any_biome.json)",
 		"kmnky_landmarks/landmarks/64x_stone_circle.json":	"file(kmnky_landmarks/allowed_in_any_biome.json)",
+		
+		"kmnky_traits:weapons:soul_staff": "stonehearth_ace/kmnky_traits/soul_staff_ace.json",
 
 		"nordlingmod/jobs/blacksmith/recipes/recipes.json": [
 			"candledark/jobs/blacksmith/recipes/recipes.json",
@@ -227,6 +231,7 @@
 		"betterstorage/ui/input_box_filters.json":"file(betterstorage/empty.json)",
 
 		"stonehearth/data/rigs/entities/monster/goblins/goblin/effects/combat_shieldbash.json" : "file(combatanims/shieldbash_vanilla_goblins_mixin.json)",
+		"combatanims/data/rigs/entities/humans/animations/male/happy_patrol_walk.json" : "combatanims/data/rigs/entities/humans/animations/male/patrol_walk.json",
 		"stonehearth/data/rigs/entities/rabbit_biped/effects/work_weaver.json": "file(bunny_jobs/work_weaver.json)",
 		"bunny_jobs/entities/armor/cloth_padded_helmet/cloth_padded_helmet_orc_female.qb":	"file(bunny_jobs/cloth_padded_helmet_orc_female.qb)",
 		"bunny_jobs/entities/armor/cloth_padded_helmet/cloth_padded_helmet_orc_male.qb":	"file(bunny_jobs/cloth_padded_helmet_orc_male.qb)",
@@ -244,6 +249,7 @@
 		"kmnky_traits/data/traits/barbarian/barbarian.lua":		"file(kmnky_traits/barbarian.lua)",
 		"kmnky_traits/data/traits/divine_soul/divine_soul.lua":	"file(kmnky_traits/divine_soul.lua)",
 		"kmnky_traits/data/traits/pacifist/pacifist.lua":		"file(kmnky_traits/pacifist.lua)",
+		"stonehearth_ace/kmnky_traits/soul_staff_ace.json": "file(kmnky_traits/soul_staff_ace.json)",
 		
 		"nordlingmod/settlementdecor/en_mixin_nordlingmod.json": "file(settlementdecor/en_mixin_nordlingmod.json)",
 		"settlementdecor/nordlingmod/jobs/inject_gardener.json": "file(nordlingmod/gardener_job_index.json)",
@@ -261,6 +267,9 @@
 
 		"Piles_Plus/entities/substitutions/material_tags/small_pelt.json":"file(Piles_Plus/small_pelt.json)",
 		"Piles_Plus/entities/substitutions/material_tags/large_pelt.json":"file(Piles_Plus/large_pelt.json)",
+		
+		"stonehearth_ace/smart_crafter/smart_crafter_server_ace.lua": "file(smart_crafter/smart_crafter_server_ace.lua)",
+		"smart_crafter/smart_crafter_server.lua": "stonehearth_ace/smart_crafter/smart_crafter_server_ace.lua",
 		
 		"ur_ziggurat:landmark_blocks": "file(ur_ziggurat/landmark_blocks.json)",
 
