@@ -1,5 +1,27 @@
 {
 	"stockpile": {
+		"resources": {
+			"categories": {
+				"wood_pile": {
+					"ordinal": 1.1,
+					"display_name": "i18n(stonehearth:entities.containers.log_pile.log_pile_ghost.display_name)",
+					"icon": "/stonehearth/entities/containers/log_pile/log_pile.png",
+					"filter": "stockpile_wood resource_pile"
+				},
+				"stone_pile": {
+					"ordinal": 2.1,
+					"display_name": "i18n(stonehearth:entities.containers.stone_pile.stone_pile.display_name)",
+					"icon": "/stonehearth/entities/containers/stone_pile/stone_pile.png",
+					"filter": "stockpile_stone stone resource_pile"
+				},
+				"clay_pile": {
+					"ordinal": 3.1,
+					"display_name": "i18n(stonehearth:entities.containers.clay_pile.display_name)",
+					"icon": "/stonehearth/entities/containers/clay_pile/clay_pile.png",
+					"filter": "stockpile_clay clay resource_pile"
+				}
+			}
+		},
 		"misc": {
 			"display_name": "i18n(betterstorage:filters.misc)",
 			"filter": "misc",
