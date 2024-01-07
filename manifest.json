@@ -16,6 +16,7 @@
 		"combatanims",
 		"dvoid_mbs_training",
 		"ems_biome_savanna",
+		"finery",
 		"furniture_expansion_plus",
 		"homesweethome",
 		"kmnky_landmarks",
@@ -27,6 +28,7 @@
 		"plains_biome",
 		"taiga_biome",
 		"Piles_Plus",
+		"sapmod",
 		"settlementdecor",
 		"signery",
 		"smart_crafter",
@@ -58,6 +60,9 @@
 		"mod_repairer/ems_biome_savanna/savanna.json": "stonehearth_ace/ems_biome_savanna/savanna_ace.json",
 		"mod_repairer/ems_biome_savanna/savanna_generation_data.json": "stonehearth_ace/ems_biome_savanna/savanna_generation_data_ace.json",
 
+		"finery/effects/lamp_effect.json":"file(finery/lamp_effect.json)",
+		"finery/effects/lamppost_effect.json":"file(finery/lamppost_effect.json)",
+		
 		"furniture_expansion_plus/entities/decorations/blue_awning/blue_awning.json":"file(furniture_expansion_plus/awning.json)",
 		"furniture_expansion_plus/entities/decorations/blue_awning/blue_awning_ghost.json":"file(furniture_expansion_plus/awning_ghost.json)",
 		"furniture_expansion_plus/entities/decorations/red_awning/red_awning.json":"file(furniture_expansion_plus/awning.json)",
@@ -149,6 +154,13 @@
 		"taiga_biome:biome:taiga":"file(taiga_biome/taiga.json)",
 		"taiga_biome/data/biome/taiga_generation_data.json":"file(taiga_biome/taiga_generation_data.json)",
 		"taiga_biome:trees:dark_pine:ancient": "file(norsehearth/remove_destination.json)",
+
+		"sapmod/jobs/archer/archer_description.json":	"stonehearth_ace/sapmod/ace_job_description.json",
+		"sapmod/jobs/cleric/cleric_description.json":	"stonehearth_ace/sapmod/ace_job_description.json",
+		"sapmod/jobs/footman/footman_description.json":	"stonehearth_ace/sapmod/ace_job_description.json",
+		"sapmod/jobs/knight/knight_description.json":	"stonehearth_ace/sapmod/ace_job_description.json",
+		"sapmod/jobs/ruler/ruler_description.json":		"stonehearth_ace/sapmod/ace_job_description.json",
+		"sapmod/jobs/warrior/warrior_description.json":	"stonehearth_ace/sapmod/ace_job_description.json",
 
 		"settlementdecor/recipes/robust_door_recipe.json":"file(settlementdecor/10_effort.json)",
 
@@ -277,6 +289,8 @@
 		"stonehearth_ace/ems_biome_savanna/savanna_ace.json": "file(ems_biome_savanna/savanna_ace.json)",
 		"stonehearth_ace/ems_biome_savanna/savanna_generation_data_ace.json": "file(ems_biome_savanna/savanna_generation_data_ace.json)",
 
+		"finery/entities/decoration/iron_lamppost/iron_lamppost.qb":"file(finery/iron_lamppost.qb)",
+
 		"kmnky_traits/data/traits/barbarian/barbarian.lua":		"file(kmnky_traits/barbarian.lua)",
 		"kmnky_traits/data/traits/divine_soul/divine_soul.lua":	"file(kmnky_traits/divine_soul.lua)",
 		"kmnky_traits/data/traits/pacifist/pacifist.lua":		"file(kmnky_traits/pacifist.lua)",
@@ -299,6 +313,8 @@
 		"Piles_Plus/entities/substitutions/material_tags/small_pelt.json":"file(Piles_Plus/small_pelt.json)",
 		"Piles_Plus/entities/substitutions/material_tags/large_pelt.json":"file(Piles_Plus/large_pelt.json)",
 		
+		"stonehearth_ace/sapmod/ace_job_description.json": "file(sapmod/ace_job_description.json)",
+
 		"stonehearth_ace/smart_crafter/smart_crafter_server_ace.lua": "file(smart_crafter/smart_crafter_server_ace.lua)",
 		"smart_crafter/smart_crafter_server.lua": "stonehearth_ace/smart_crafter/smart_crafter_server_ace.lua",
 		
