@@ -1,0 +1,14 @@
+{
+	"parent_jobs": [
+		{
+			"job": "stonehearth:jobs:knight",
+			"level_requirement": 1,
+			"one_of": true
+		},
+		{
+			"job": "stonehearth:jobs:footman",
+			"level_requirement": 1,
+			"one_of": true
+		}
+	]
+}

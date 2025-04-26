@@ -127,6 +127,8 @@
 		"nordlingmod/data/biome/forest_generation_data.json": "/settlementdecor/nordlingmod/add_wild_plants.json",
 		"nordlingmod/data/nordlings_initial_crops.json": "/settlementdecor/nordlingmod/add_crops.json",
 		"settlementdecor/locales/en.json": "/nordlingmod/settlementdecor/en_mixin_nordlingmod.json",
+		"nordlingmod/jobs/ruler/ruler_description.json": "file(nordlingmod/ruler_description.json)",
+		"nordlingmod/jobs/ruler/ruler_abilities/ruler_abilities.json": "file(nordlingmod/ruler_abilities.json)",
 		
 		"pale_peaks/data/biome/pale_peaks.json": "file(pale_peaks/pale_peaks.json)",
 		"mod_repairer/pale_peaks/pale_peaks.json": "stonehearth_ace/pale_peaks/pale_peaks_ace.json",
