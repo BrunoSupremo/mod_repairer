@@ -17,6 +17,7 @@
 		"dvoid_mbs_training",
 		"ems_biome_savanna",
 		"finery",
+		"firefly_oresmith",
 		"furniture_expansion_plus",
 		"homesweethome",
 		"kmnky_landmarks",
@@ -36,7 +37,6 @@
 		"veloren_elves",
 		"yangz-yings"
 	],
-	"default_locale" : "en",
 	"server_init_script" : "file(server)",
 	"mixintos" : {
 
@@ -292,6 +292,8 @@
 		"stonehearth_ace/ems_biome_savanna/savanna_generation_data_ace.json": "file(ems_biome_savanna/savanna_generation_data_ace.json)",
 
 		"finery/entities/decoration/iron_lamppost/iron_lamppost.qb":"file(finery/iron_lamppost.qb)",
+
+		"firefly_oresmith/ui/data/output_box_filters.json":"file(firefly_oresmith/output_box_filters.json)",
 
 		"kmnky_traits/data/traits/barbarian/barbarian.lua":		"file(kmnky_traits/barbarian.lua)",
 		"kmnky_traits/data/traits/divine_soul/divine_soul.lua":	"file(kmnky_traits/divine_soul.lua)",

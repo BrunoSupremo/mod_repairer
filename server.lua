@@ -1,5 +1,5 @@
 mod_repairer = {}
-print("Mod Repairer version 24.1.6")
+print("Mod Repairer version 26.4.3")
 
 --[[
 todo:

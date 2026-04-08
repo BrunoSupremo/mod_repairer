@@ -1,0 +1,14 @@
+{
+	"stockpile": {
+		"firefly_production": {
+			"categories": {
+				"oresmith": {
+					"ordinal": 18,
+					"display_name": "i18n(firefly_oresmith:jobs.oresmith.oresmith_description.display_name)",
+					"icon": "/firefly_oresmith/jobs/oresmith/images/icon.png",
+					"filter": "oresmith"
+				}
+			}
+		}
+	}
+}
