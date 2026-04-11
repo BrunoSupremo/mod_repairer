@@ -11,6 +11,7 @@
 	],
 	"dependencies": [
 		"betterstorage",
+		"big_packs",
 		"bunny_jobs",
 		"candledark",
 		"combatanims",
@@ -22,6 +23,7 @@
 		"homesweethome",
 		"kmnky_landmarks",
 		"kmnky_traits",
+		"miner_prof",
 		"nordlingmod",
 		"norsehearth",
 		"pale_peaks",
@@ -116,6 +118,8 @@
 		"kmnky_landmarks/landmarks/64x_stone_circle.json":	"file(kmnky_landmarks/allowed_in_any_biome.json)",
 		
 		"kmnky_traits:weapons:soul_staff": "stonehearth_ace/kmnky_traits/soul_staff_ace.json",
+
+		"miner_prof/data/constants.json":"big_packs/data/constants.json",
 
 		"nordlingmod/jobs/blacksmith/recipes/recipes.json": [
 			"candledark/jobs/blacksmith/recipes/recipes.json",
